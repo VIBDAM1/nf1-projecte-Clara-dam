@@ -74,6 +74,8 @@
             label78 = new Label();
             label13 = new Label();
             tableLayoutPanel6 = new TableLayoutPanel();
+            tableLayoutPanel7 = new TableLayoutPanel();
+            label8 = new Label();
             label97 = new Label();
             tableLayoutPanel43 = new TableLayoutPanel();
             label101 = new Label();
@@ -117,8 +119,6 @@
             tableLayoutPanel42 = new TableLayoutPanel();
             tableLayoutPanel1 = new TableLayoutPanel();
             label7 = new Label();
-            tableLayoutPanel7 = new TableLayoutPanel();
-            label8 = new Label();
             panel1.SuspendLayout();
             tableLayoutPanel8.SuspendLayout();
             tableLayoutPanel9.SuspendLayout();
@@ -133,6 +133,7 @@
             tableLayoutPanel39.SuspendLayout();
             tableLayoutPanel34.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
+            tableLayoutPanel7.SuspendLayout();
             tableLayoutPanel43.SuspendLayout();
             tableLayoutPanel44.SuspendLayout();
             tableLayoutPanel45.SuspendLayout();
@@ -157,7 +158,6 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            tableLayoutPanel7.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -831,6 +831,34 @@
             tableLayoutPanel6.Size = new Size(229, 550);
             tableLayoutPanel6.TabIndex = 1;
             // 
+            // tableLayoutPanel7
+            // 
+            tableLayoutPanel7.BackColor = Color.LightSteelBlue;
+            tableLayoutPanel7.ColumnCount = 1;
+            tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel7.Controls.Add(label8, 0, 0);
+            tableLayoutPanel7.Dock = DockStyle.Fill;
+            tableLayoutPanel7.Location = new Point(20, 45);
+            tableLayoutPanel7.Margin = new Padding(20, 5, 20, 5);
+            tableLayoutPanel7.Name = "tableLayoutPanel7";
+            tableLayoutPanel7.RowCount = 2;
+            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Absolute, 26F));
+            tableLayoutPanel7.Size = new Size(189, 60);
+            tableLayoutPanel7.TabIndex = 14;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Dock = DockStyle.Fill;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.ForeColor = SystemColors.ActiveCaptionText;
+            label8.Location = new Point(3, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(183, 34);
+            label8.TabIndex = 0;
+            label8.Text = "Total";
+            // 
             // label97
             // 
             label97.AutoSize = true;
@@ -1399,34 +1427,6 @@
             label7.TabIndex = 0;
             label7.Text = "Total";
             // 
-            // tableLayoutPanel7
-            // 
-            tableLayoutPanel7.BackColor = Color.LightSteelBlue;
-            tableLayoutPanel7.ColumnCount = 1;
-            tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel7.Controls.Add(label8, 0, 0);
-            tableLayoutPanel7.Dock = DockStyle.Fill;
-            tableLayoutPanel7.Location = new Point(20, 45);
-            tableLayoutPanel7.Margin = new Padding(20, 5, 20, 5);
-            tableLayoutPanel7.Name = "tableLayoutPanel7";
-            tableLayoutPanel7.RowCount = 2;
-            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Absolute, 26F));
-            tableLayoutPanel7.Size = new Size(189, 60);
-            tableLayoutPanel7.TabIndex = 14;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Dock = DockStyle.Fill;
-            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.ForeColor = SystemColors.ActiveCaptionText;
-            label8.Location = new Point(3, 0);
-            label8.Name = "label8";
-            label8.Size = new Size(183, 34);
-            label8.TabIndex = 0;
-            label8.Text = "Total";
-            // 
             // HomePage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1471,6 +1471,8 @@
             tableLayoutPanel34.PerformLayout();
             tableLayoutPanel6.ResumeLayout(false);
             tableLayoutPanel6.PerformLayout();
+            tableLayoutPanel7.ResumeLayout(false);
+            tableLayoutPanel7.PerformLayout();
             tableLayoutPanel43.ResumeLayout(false);
             tableLayoutPanel43.PerformLayout();
             tableLayoutPanel44.ResumeLayout(false);
@@ -1501,8 +1503,6 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            tableLayoutPanel7.ResumeLayout(false);
-            tableLayoutPanel7.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }

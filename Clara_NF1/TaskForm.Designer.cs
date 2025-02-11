@@ -49,9 +49,10 @@
             label6 = new Label();
             label3 = new Label();
             checkedListBox1 = new CheckedListBox();
-            monthCalendar1 = new MonthCalendar();
-            button1 = new Button();
+            dateTimePicker1 = new DateTimePicker();
             label41 = new Label();
+            tableLayoutPanel6 = new TableLayoutPanel();
+            button2 = new Button();
             tableLayoutPanel4 = new TableLayoutPanel();
             label2 = new Label();
             label1 = new Label();
@@ -69,6 +70,7 @@
             tableLayoutPanel2.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
             tableLayoutPanel5.SuspendLayout();
+            tableLayoutPanel6.SuspendLayout();
             tableLayoutPanel4.SuspendLayout();
             SuspendLayout();
             // 
@@ -194,7 +196,7 @@
             // tableLayoutPanel2
             // 
             tableLayoutPanel2.ColumnCount = 3;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 145F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 140F));
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 94.89427F));
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5.105725F));
             tableLayoutPanel2.Controls.Add(tableLayoutPanel3, 1, 1);
@@ -212,20 +214,20 @@
             // 
             tableLayoutPanel3.BackColor = Color.FromArgb(64, 64, 64);
             tableLayoutPanel3.ColumnCount = 3;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.336406F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 93.6636F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 56F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 7F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 86F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 7F));
             tableLayoutPanel3.Controls.Add(tableLayoutPanel5, 1, 1);
-            tableLayoutPanel3.Controls.Add(button1, 1, 2);
             tableLayoutPanel3.Controls.Add(label41, 1, 0);
+            tableLayoutPanel3.Controls.Add(tableLayoutPanel6, 1, 2);
             tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(148, 72);
+            tableLayoutPanel3.Location = new Point(143, 72);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 3;
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 12.7238617F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 76.36997F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 10.906167F));
-            tableLayoutPanel3.Size = new Size(1055, 549);
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 10.909091F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 76.36364F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 12.727273F));
+            tableLayoutPanel3.Size = new Size(1060, 549);
             tableLayoutPanel3.TabIndex = 0;
             // 
             // tableLayoutPanel5
@@ -234,10 +236,10 @@
             tableLayoutPanel5.ColumnCount = 7;
             tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 30F));
             tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 35F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30F));
             tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 30F));
             tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 35F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
             tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 30F));
             tableLayoutPanel5.Controls.Add(label4, 1, 1);
             tableLayoutPanel5.Controls.Add(textBox1, 2, 1);
@@ -246,17 +248,17 @@
             tableLayoutPanel5.Controls.Add(label6, 4, 3);
             tableLayoutPanel5.Controls.Add(label3, 4, 1);
             tableLayoutPanel5.Controls.Add(checkedListBox1, 5, 1);
-            tableLayoutPanel5.Controls.Add(monthCalendar1, 5, 3);
+            tableLayoutPanel5.Controls.Add(dateTimePicker1, 5, 3);
             tableLayoutPanel5.Dock = DockStyle.Fill;
-            tableLayoutPanel5.Location = new Point(66, 72);
+            tableLayoutPanel5.Location = new Point(77, 62);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             tableLayoutPanel5.RowCount = 5;
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 12.2448978F));
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 20.4081631F));
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 10.2040815F));
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 44.89796F));
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 12.2448978F));
-            tableLayoutPanel5.Size = new Size(929, 413);
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 12.2824993F));
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 28.08598F));
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 10.2354155F));
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 37.1136169F));
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 12.2824974F));
+            tableLayoutPanel5.Size = new Size(905, 413);
             tableLayoutPanel5.TabIndex = 1;
             // 
             // label4
@@ -269,28 +271,28 @@
             label4.Location = new Point(33, 50);
             label4.Name = "label4";
             label4.Padding = new Padding(1, 1, 1, 5);
-            label4.Size = new Size(119, 84);
+            label4.Size = new Size(116, 115);
             label4.TabIndex = 0;
             label4.Text = "Nom Tasca";
             // 
             // textBox1
             // 
-            textBox1.BackColor = SystemColors.ControlLight;
+            textBox1.BackColor = SystemColors.Control;
             textBox1.Dock = DockStyle.Fill;
             textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(158, 53);
+            textBox1.Location = new Point(155, 53);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(287, 29);
+            textBox1.Size = new Size(238, 29);
             textBox1.TabIndex = 1;
             // 
             // richTextBox1
             // 
-            richTextBox1.BackColor = SystemColors.ControlLight;
+            richTextBox1.BackColor = SystemColors.Control;
             richTextBox1.Dock = DockStyle.Fill;
             richTextBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            richTextBox1.Location = new Point(158, 179);
+            richTextBox1.Location = new Point(155, 210);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(287, 179);
+            richTextBox1.Size = new Size(238, 147);
             richTextBox1.TabIndex = 6;
             richTextBox1.Text = "";
             // 
@@ -301,10 +303,10 @@
             label5.Dock = DockStyle.Fill;
             label5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.FromArgb(192, 192, 255);
-            label5.Location = new Point(33, 176);
+            label5.Location = new Point(33, 207);
             label5.Name = "label5";
             label5.Padding = new Padding(1, 1, 1, 5);
-            label5.Size = new Size(119, 185);
+            label5.Size = new Size(116, 153);
             label5.TabIndex = 3;
             label5.Text = "Descripció";
             // 
@@ -315,10 +317,10 @@
             label6.Dock = DockStyle.Fill;
             label6.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(192, 192, 255);
-            label6.Location = new Point(481, 176);
+            label6.Location = new Point(429, 207);
             label6.Name = "label6";
             label6.Padding = new Padding(1, 1, 1, 5);
-            label6.Size = new Size(119, 185);
+            label6.Size = new Size(116, 153);
             label6.TabIndex = 4;
             label6.Text = "Recordatori";
             // 
@@ -329,47 +331,34 @@
             label3.Dock = DockStyle.Fill;
             label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(192, 192, 255);
-            label3.Location = new Point(481, 50);
+            label3.Location = new Point(429, 50);
             label3.Name = "label3";
             label3.Padding = new Padding(1, 1, 1, 5);
-            label3.Size = new Size(119, 84);
+            label3.Size = new Size(116, 115);
             label3.TabIndex = 2;
             label3.Text = "Prioritat";
             // 
             // checkedListBox1
             // 
+            checkedListBox1.BackColor = SystemColors.Control;
             checkedListBox1.Dock = DockStyle.Fill;
             checkedListBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             checkedListBox1.FormattingEnabled = true;
             checkedListBox1.Items.AddRange(new object[] { "Baixa", "Mitjana", "Alta" });
-            checkedListBox1.Location = new Point(606, 53);
-            checkedListBox1.Margin = new Padding(3, 3, 150, 3);
+            checkedListBox1.Location = new Point(551, 53);
+            checkedListBox1.Margin = new Padding(3, 3, 50, 3);
             checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(140, 78);
+            checkedListBox1.Size = new Size(273, 109);
             checkedListBox1.TabIndex = 8;
             // 
-            // monthCalendar1
+            // dateTimePicker1
             // 
-            monthCalendar1.Dock = DockStyle.Fill;
-            monthCalendar1.Location = new Point(612, 185);
-            monthCalendar1.Name = "monthCalendar1";
-            monthCalendar1.TabIndex = 9;
-            // 
-            // button1
-            // 
-            button1.Anchor = AnchorStyles.Right;
-            button1.BackColor = Color.SlateBlue;
-            button1.FlatAppearance.BorderColor = Color.SlateBlue;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Source Sans Pro Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(902, 505);
-            button1.Name = "button1";
-            button1.Size = new Size(93, 27);
-            button1.TabIndex = 5;
-            button1.Text = "Crea";
-            button1.UseVisualStyleBackColor = false;
+            dateTimePicker1.Dock = DockStyle.Fill;
+            dateTimePicker1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dateTimePicker1.Location = new Point(551, 210);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(320, 27);
+            dateTimePicker1.TabIndex = 9;
             // 
             // label41
             // 
@@ -377,12 +366,44 @@
             label41.AutoSize = true;
             label41.Font = new Font("Source Sans Pro", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label41.ForeColor = SystemColors.ButtonFace;
-            label41.Location = new Point(66, 17);
+            label41.Location = new Point(77, 12);
             label41.Name = "label41";
             label41.Size = new Size(106, 34);
             label41.TabIndex = 6;
             label41.Text = "Tasques";
             label41.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel6
+            // 
+            tableLayoutPanel6.ColumnCount = 2;
+            tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 89.11517F));
+            tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.88483F));
+            tableLayoutPanel6.Controls.Add(button2, 1, 1);
+            tableLayoutPanel6.Dock = DockStyle.Fill;
+            tableLayoutPanel6.Location = new Point(77, 481);
+            tableLayoutPanel6.Name = "tableLayoutPanel6";
+            tableLayoutPanel6.RowCount = 3;
+            tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
+            tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 58F));
+            tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 22F));
+            tableLayoutPanel6.Size = new Size(905, 65);
+            tableLayoutPanel6.TabIndex = 8;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.SlateBlue;
+            button2.Dock = DockStyle.Fill;
+            button2.FlatAppearance.BorderColor = Color.SlateBlue;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Source Sans Pro Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = SystemColors.ButtonFace;
+            button2.Location = new Point(809, 16);
+            button2.Name = "button2";
+            button2.Size = new Size(93, 31);
+            button2.TabIndex = 7;
+            button2.Text = "Crea";
+            button2.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel4
             // 
@@ -453,6 +474,7 @@
             tableLayoutPanel3.PerformLayout();
             tableLayoutPanel5.ResumeLayout(false);
             tableLayoutPanel5.PerformLayout();
+            tableLayoutPanel6.ResumeLayout(false);
             tableLayoutPanel4.ResumeLayout(false);
             tableLayoutPanel4.PerformLayout();
             ResumeLayout(false);
@@ -482,9 +504,10 @@
         private Label label5;
         private Label label6;
         private RichTextBox richTextBox1;
-        private Button button1;
         private Label label41;
         private CheckedListBox checkedListBox1;
-        private MonthCalendar monthCalendar1;
+        private TableLayoutPanel tableLayoutPanel6;
+        private Button button2;
+        private DateTimePicker dateTimePicker1;
     }
 }

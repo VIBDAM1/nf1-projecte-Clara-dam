@@ -424,7 +424,7 @@
             // tableLayoutPanel8
             // 
             tableLayoutPanel8.ColumnCount = 3;
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
+            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 140F));
             tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 94.4865952F));
             tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5.51340151F));
             tableLayoutPanel8.Controls.Add(tableLayoutPanel9, 1, 1);
@@ -448,24 +448,24 @@
             tableLayoutPanel9.Controls.Add(label13, 1, 0);
             tableLayoutPanel9.Controls.Add(tableLayoutPanel1, 1, 1);
             tableLayoutPanel9.Dock = DockStyle.Fill;
-            tableLayoutPanel9.Location = new Point(123, 73);
+            tableLayoutPanel9.Location = new Point(143, 73);
             tableLayoutPanel9.Name = "tableLayoutPanel9";
             tableLayoutPanel9.RowCount = 3;
             tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 9F));
             tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 84F));
             tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 7F));
-            tableLayoutPanel9.Size = new Size(1074, 550);
+            tableLayoutPanel9.Size = new Size(1056, 550);
             tableLayoutPanel9.TabIndex = 0;
             // 
             // label13
             // 
-            label13.Anchor = AnchorStyles.Left;
             label13.AutoSize = true;
+            label13.Dock = DockStyle.Left;
             label13.Font = new Font("Source Sans Pro", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label13.ForeColor = SystemColors.ButtonFace;
-            label13.Location = new Point(54, 9);
+            label13.Location = new Point(53, 0);
             label13.Name = "label13";
-            label13.Size = new Size(252, 31);
+            label13.Size = new Size(252, 49);
             label13.TabIndex = 6;
             label13.Text = "Informes i Estadístiques";
             label13.TextAlign = ContentAlignment.MiddleCenter;
@@ -479,11 +479,11 @@
             tableLayoutPanel1.Controls.Add(tableLayoutPanel7, 0, 0);
             tableLayoutPanel1.Controls.Add(tableLayoutPanel14, 1, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(54, 52);
+            tableLayoutPanel1.Location = new Point(53, 52);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(964, 456);
+            tableLayoutPanel1.Size = new Size(948, 456);
             tableLayoutPanel1.TabIndex = 7;
             // 
             // tableLayoutPanel7
@@ -504,7 +504,7 @@
             tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
-            tableLayoutPanel7.Size = new Size(283, 450);
+            tableLayoutPanel7.Size = new Size(278, 450);
             tableLayoutPanel7.TabIndex = 58;
             // 
             // label11
@@ -515,7 +515,7 @@
             label11.ForeColor = SystemColors.ButtonFace;
             label11.Location = new Point(3, 0);
             label11.Name = "label11";
-            label11.Size = new Size(277, 55);
+            label11.Size = new Size(272, 55);
             label11.TabIndex = 16;
             label11.Text = "Resum de les tasques";
             label11.TextAlign = ContentAlignment.MiddleCenter;
@@ -533,7 +533,7 @@
             tableLayoutPanel13.RowCount = 2;
             tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Percent, 30F));
             tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
-            tableLayoutPanel13.Size = new Size(163, 76);
+            tableLayoutPanel13.Size = new Size(158, 76);
             tableLayoutPanel13.TabIndex = 15;
             // 
             // label10
@@ -542,7 +542,7 @@
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label10.ForeColor = SystemColors.ActiveCaptionText;
-            label10.Location = new Point(51, 3);
+            label10.Location = new Point(49, 3);
             label10.Name = "label10";
             label10.Size = new Size(60, 15);
             label10.TabIndex = 0;
@@ -561,7 +561,7 @@
             tableLayoutPanel12.RowCount = 2;
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 30F));
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
-            tableLayoutPanel12.Size = new Size(163, 73);
+            tableLayoutPanel12.Size = new Size(158, 73);
             tableLayoutPanel12.TabIndex = 14;
             // 
             // label9
@@ -570,7 +570,7 @@
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label9.ForeColor = SystemColors.ActiveCaptionText;
-            label9.Location = new Point(51, 3);
+            label9.Location = new Point(49, 3);
             label9.Name = "label9";
             label9.Size = new Size(60, 15);
             label9.TabIndex = 0;
@@ -589,7 +589,7 @@
             tableLayoutPanel11.RowCount = 2;
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 30F));
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
-            tableLayoutPanel11.Size = new Size(163, 73);
+            tableLayoutPanel11.Size = new Size(158, 73);
             tableLayoutPanel11.TabIndex = 13;
             // 
             // label8
@@ -598,7 +598,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label8.ForeColor = SystemColors.ActiveCaptionText;
-            label8.Location = new Point(46, 3);
+            label8.Location = new Point(44, 3);
             label8.Name = "label8";
             label8.Size = new Size(70, 15);
             label8.TabIndex = 0;
@@ -617,7 +617,7 @@
             tableLayoutPanel6.RowCount = 2;
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 30F));
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
-            tableLayoutPanel6.Size = new Size(163, 73);
+            tableLayoutPanel6.Size = new Size(158, 73);
             tableLayoutPanel6.TabIndex = 12;
             // 
             // label7
@@ -626,7 +626,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.ForeColor = SystemColors.ActiveCaptionText;
-            label7.Location = new Point(64, 3);
+            label7.Location = new Point(62, 3);
             label7.Name = "label7";
             label7.Size = new Size(34, 15);
             label7.TabIndex = 0;
@@ -639,12 +639,12 @@
             tableLayoutPanel14.Controls.Add(label12, 0, 0);
             tableLayoutPanel14.Controls.Add(tableLayoutPanel15, 0, 1);
             tableLayoutPanel14.Dock = DockStyle.Fill;
-            tableLayoutPanel14.Location = new Point(292, 3);
+            tableLayoutPanel14.Location = new Point(287, 3);
             tableLayoutPanel14.Name = "tableLayoutPanel14";
             tableLayoutPanel14.RowCount = 2;
             tableLayoutPanel14.RowStyles.Add(new RowStyle(SizeType.Absolute, 55F));
             tableLayoutPanel14.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel14.Size = new Size(669, 450);
+            tableLayoutPanel14.Size = new Size(658, 450);
             tableLayoutPanel14.TabIndex = 59;
             // 
             // label12
@@ -655,7 +655,7 @@
             label12.ForeColor = SystemColors.ButtonFace;
             label12.Location = new Point(3, 0);
             label12.Name = "label12";
-            label12.Size = new Size(663, 55);
+            label12.Size = new Size(652, 55);
             label12.TabIndex = 17;
             label12.Text = "Resum gràfic";
             label12.TextAlign = ContentAlignment.MiddleCenter;
@@ -674,7 +674,7 @@
             tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
             tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Percent, 60F));
             tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
-            tableLayoutPanel15.Size = new Size(663, 389);
+            tableLayoutPanel15.Size = new Size(652, 389);
             tableLayoutPanel15.TabIndex = 18;
             // 
             // pictureBox1
@@ -684,7 +684,7 @@
             pictureBox1.Location = new Point(10, 80);
             pictureBox1.Margin = new Padding(10, 3, 10, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(245, 227);
+            pictureBox1.Size = new Size(240, 227);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -693,10 +693,10 @@
             // 
             pictureBox5.Dock = DockStyle.Fill;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(295, 80);
+            pictureBox5.Location = new Point(290, 80);
             pictureBox5.Margin = new Padding(30, 3, 30, 3);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(338, 227);
+            pictureBox5.Size = new Size(332, 227);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 1;
             pictureBox5.TabStop = false;
