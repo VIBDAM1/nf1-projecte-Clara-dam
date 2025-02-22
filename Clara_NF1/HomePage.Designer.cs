@@ -30,66 +30,63 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePage));
             panel1 = new Panel();
-            tableLayoutPanel11 = new TableLayoutPanel();
-            tableLayoutPanel10 = new TableLayoutPanel();
-            pictureBox8 = new PictureBox();
-            pictureBox9 = new PictureBox();
-            pictureBox10 = new PictureBox();
-            pictureBox11 = new PictureBox();
-            pictureBox12 = new PictureBox();
-            pictureBox2 = new PictureBox();
             tableLayoutPanel8 = new TableLayoutPanel();
             tableLayoutPanel9 = new TableLayoutPanel();
             tableLayoutPanel30 = new TableLayoutPanel();
-            tableLayoutPanel31 = new TableLayoutPanel();
-            label67 = new Label();
-            label68 = new Label();
-            label69 = new Label();
-            tableLayoutPanel32 = new TableLayoutPanel();
-            label70 = new Label();
-            label71 = new Label();
-            label72 = new Label();
-            tableLayoutPanel33 = new TableLayoutPanel();
-            label73 = new Label();
-            label74 = new Label();
-            label75 = new Label();
-            tableLayoutPanel35 = new TableLayoutPanel();
-            label79 = new Label();
-            label80 = new Label();
-            label81 = new Label();
-            tableLayoutPanel36 = new TableLayoutPanel();
-            label82 = new Label();
-            label83 = new Label();
-            label84 = new Label();
-            tableLayoutPanel37 = new TableLayoutPanel();
-            label85 = new Label();
-            label86 = new Label();
-            label87 = new Label();
-            tableLayoutPanel38 = new TableLayoutPanel();
-            label88 = new Label();
-            label89 = new Label();
-            label90 = new Label();
+            tableLayoutPanel20 = new TableLayoutPanel();
+            label39 = new Label();
+            tasca6 = new Label();
+            label42 = new Label();
+            tableLayoutPanel19 = new TableLayoutPanel();
+            label36 = new Label();
+            tasca5 = new Label();
+            label38 = new Label();
+            tableLayoutPanel18 = new TableLayoutPanel();
+            tasca4 = new Label();
+            label34 = new Label();
+            label35 = new Label();
+            tableLayoutPanel17 = new TableLayoutPanel();
+            tasca3 = new Label();
+            label31 = new Label();
+            label32 = new Label();
+            tableLayoutPanel11 = new TableLayoutPanel();
+            tasca2 = new Label();
+            label14 = new Label();
+            label15 = new Label();
+            tableLayoutPanel10 = new TableLayoutPanel();
+            tasca7 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            tableLayoutPanel12 = new TableLayoutPanel();
+            label16 = new Label();
+            tasca8 = new Label();
+            label18 = new Label();
             label91 = new Label();
             label92 = new Label();
             label93 = new Label();
-            tableLayoutPanel39 = new TableLayoutPanel();
-            label94 = new Label();
-            label95 = new Label();
-            label96 = new Label();
             tableLayoutPanel34 = new TableLayoutPanel();
-            label76 = new Label();
+            tasca1 = new Label();
             label77 = new Label();
             label78 = new Label();
+            tableLayoutPanel16 = new TableLayoutPanel();
+            tasca9 = new Label();
+            label28 = new Label();
+            label29 = new Label();
             label13 = new Label();
+            label9 = new Label();
             tableLayoutPanel6 = new TableLayoutPanel();
             tableLayoutPanel7 = new TableLayoutPanel();
+            label43 = new Label();
             label8 = new Label();
             label97 = new Label();
             tableLayoutPanel43 = new TableLayoutPanel();
+            label44 = new Label();
             label101 = new Label();
             tableLayoutPanel44 = new TableLayoutPanel();
+            label45 = new Label();
             label102 = new Label();
             tableLayoutPanel45 = new TableLayoutPanel();
+            label46 = new Label();
             label103 = new Label();
             label104 = new Label();
             pictureBox13 = new PictureBox();
@@ -118,27 +115,30 @@
             tableLayoutPanel42 = new TableLayoutPanel();
             tableLayoutPanel1 = new TableLayoutPanel();
             label7 = new Label();
+            tableLayoutPanel13 = new TableLayoutPanel();
+            label19 = new Label();
+            label20 = new Label();
+            tableLayoutPanel14 = new TableLayoutPanel();
+            label21 = new Label();
+            label22 = new Label();
+            tableLayoutPanel15 = new TableLayoutPanel();
+            label23 = new Label();
+            label24 = new Label();
+            label26 = new Label();
+            label27 = new Label();
             panel1.SuspendLayout();
-            tableLayoutPanel11.SuspendLayout();
-            tableLayoutPanel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             tableLayoutPanel8.SuspendLayout();
             tableLayoutPanel9.SuspendLayout();
             tableLayoutPanel30.SuspendLayout();
-            tableLayoutPanel31.SuspendLayout();
-            tableLayoutPanel32.SuspendLayout();
-            tableLayoutPanel33.SuspendLayout();
-            tableLayoutPanel35.SuspendLayout();
-            tableLayoutPanel36.SuspendLayout();
-            tableLayoutPanel37.SuspendLayout();
-            tableLayoutPanel38.SuspendLayout();
-            tableLayoutPanel39.SuspendLayout();
+            tableLayoutPanel20.SuspendLayout();
+            tableLayoutPanel19.SuspendLayout();
+            tableLayoutPanel18.SuspendLayout();
+            tableLayoutPanel17.SuspendLayout();
+            tableLayoutPanel11.SuspendLayout();
+            tableLayoutPanel10.SuspendLayout();
+            tableLayoutPanel12.SuspendLayout();
             tableLayoutPanel34.SuspendLayout();
+            tableLayoutPanel16.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
             tableLayoutPanel7.SuspendLayout();
             tableLayoutPanel43.SuspendLayout();
@@ -155,147 +155,41 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            tableLayoutPanel13.SuspendLayout();
+            tableLayoutPanel14.SuspendLayout();
+            tableLayoutPanel15.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.Black;
-            panel1.Controls.Add(tableLayoutPanel11);
+            panel1.Controls.Add(tableLayoutPanel8);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1264, 701);
+            panel1.Size = new Size(1142, 656);
             panel1.TabIndex = 46;
-            // 
-            // tableLayoutPanel11
-            // 
-            tableLayoutPanel11.AutoSize = true;
-            tableLayoutPanel11.BackColor = Color.FromArgb(64, 64, 64);
-            tableLayoutPanel11.ColumnCount = 2;
-            tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 7.120253F));
-            tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 92.8797455F));
-            tableLayoutPanel11.Controls.Add(tableLayoutPanel10, 0, 0);
-            tableLayoutPanel11.Controls.Add(tableLayoutPanel8, 1, 0);
-            tableLayoutPanel11.Dock = DockStyle.Fill;
-            tableLayoutPanel11.Location = new Point(0, 0);
-            tableLayoutPanel11.Name = "tableLayoutPanel11";
-            tableLayoutPanel11.RowCount = 1;
-            tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel11.Size = new Size(1264, 701);
-            tableLayoutPanel11.TabIndex = 1;
-            // 
-            // tableLayoutPanel10
-            // 
-            tableLayoutPanel10.BackColor = Color.FromArgb(64, 64, 64);
-            tableLayoutPanel10.ColumnCount = 1;
-            tableLayoutPanel10.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel10.Controls.Add(pictureBox8, 0, 2);
-            tableLayoutPanel10.Controls.Add(pictureBox9, 0, 3);
-            tableLayoutPanel10.Controls.Add(pictureBox10, 0, 4);
-            tableLayoutPanel10.Controls.Add(pictureBox11, 0, 5);
-            tableLayoutPanel10.Controls.Add(pictureBox12, 0, 6);
-            tableLayoutPanel10.Controls.Add(pictureBox2, 0, 0);
-            tableLayoutPanel10.Dock = DockStyle.Fill;
-            tableLayoutPanel10.Location = new Point(3, 3);
-            tableLayoutPanel10.Name = "tableLayoutPanel10";
-            tableLayoutPanel10.RowCount = 8;
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 11.1111107F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 16.1616154F));
-            tableLayoutPanel10.Size = new Size(84, 695);
-            tableLayoutPanel10.TabIndex = 1;
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.Anchor = AnchorStyles.None;
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(24, 185);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(35, 35);
-            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox8.TabIndex = 1;
-            pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            pictureBox9.Anchor = AnchorStyles.None;
-            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(24, 269);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(35, 35);
-            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox9.TabIndex = 2;
-            pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            pictureBox10.Anchor = AnchorStyles.None;
-            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(24, 353);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(35, 35);
-            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox10.TabIndex = 3;
-            pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            pictureBox11.Anchor = AnchorStyles.None;
-            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(24, 437);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(35, 35);
-            pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox11.TabIndex = 4;
-            pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            pictureBox12.Anchor = AnchorStyles.None;
-            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
-            pictureBox12.Location = new Point(24, 521);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(35, 35);
-            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox12.TabIndex = 5;
-            pictureBox12.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Dock = DockStyle.Fill;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(3, 3);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(78, 71);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
             // 
             // tableLayoutPanel8
             // 
             tableLayoutPanel8.BackColor = Color.Black;
             tableLayoutPanel8.ColumnCount = 5;
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 74.40114F));
+            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 3F));
+            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 75F));
             tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 21.25747F));
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 4.34139156F));
+            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 19F));
+            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 3F));
             tableLayoutPanel8.Controls.Add(tableLayoutPanel9, 1, 1);
             tableLayoutPanel8.Controls.Add(tableLayoutPanel6, 3, 1);
             tableLayoutPanel8.Dock = DockStyle.Fill;
-            tableLayoutPanel8.Location = new Point(93, 3);
+            tableLayoutPanel8.Location = new Point(0, 0);
             tableLayoutPanel8.Name = "tableLayoutPanel8";
             tableLayoutPanel8.RowCount = 3;
-            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 10.2902594F));
-            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 81.67332F));
-            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 8.036425F));
-            tableLayoutPanel8.Size = new Size(1168, 695);
-            tableLayoutPanel8.TabIndex = 0;
+            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
+            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 90F));
+            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
+            tableLayoutPanel8.Size = new Size(1142, 656);
+            tableLayoutPanel8.TabIndex = 1;
             // 
             // tableLayoutPanel9
             // 
@@ -306,619 +200,652 @@
             tableLayoutPanel9.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 4.823294F));
             tableLayoutPanel9.Controls.Add(tableLayoutPanel30, 1, 1);
             tableLayoutPanel9.Controls.Add(label13, 1, 0);
+            tableLayoutPanel9.Controls.Add(label9, 1, 2);
             tableLayoutPanel9.Dock = DockStyle.Fill;
-            tableLayoutPanel9.Location = new Point(53, 74);
+            tableLayoutPanel9.Location = new Point(36, 35);
             tableLayoutPanel9.Name = "tableLayoutPanel9";
             tableLayoutPanel9.RowCount = 3;
-            tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 6.20068932F));
-            tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 89.87366F));
-            tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 3.92565F));
-            tableLayoutPanel9.Size = new Size(810, 561);
+            tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 8F));
+            tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 85F));
+            tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 7F));
+            tableLayoutPanel9.Size = new Size(835, 584);
             tableLayoutPanel9.TabIndex = 0;
             // 
             // tableLayoutPanel30
             // 
             tableLayoutPanel30.ColumnCount = 3;
-            tableLayoutPanel30.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.92846F));
-            tableLayoutPanel30.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.0715332F));
-            tableLayoutPanel30.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.0000038F));
-            tableLayoutPanel30.Controls.Add(tableLayoutPanel31, 2, 2);
-            tableLayoutPanel30.Controls.Add(tableLayoutPanel32, 2, 1);
-            tableLayoutPanel30.Controls.Add(tableLayoutPanel33, 1, 1);
-            tableLayoutPanel30.Controls.Add(tableLayoutPanel35, 0, 3);
-            tableLayoutPanel30.Controls.Add(tableLayoutPanel36, 0, 3);
-            tableLayoutPanel30.Controls.Add(tableLayoutPanel37, 0, 3);
-            tableLayoutPanel30.Controls.Add(tableLayoutPanel38, 1, 2);
+            tableLayoutPanel30.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel30.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel30.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel30.Controls.Add(tableLayoutPanel20, 2, 2);
+            tableLayoutPanel30.Controls.Add(tableLayoutPanel19, 1, 2);
+            tableLayoutPanel30.Controls.Add(tableLayoutPanel18, 0, 2);
+            tableLayoutPanel30.Controls.Add(tableLayoutPanel17, 2, 1);
+            tableLayoutPanel30.Controls.Add(tableLayoutPanel11, 1, 1);
+            tableLayoutPanel30.Controls.Add(tableLayoutPanel10, 0, 3);
+            tableLayoutPanel30.Controls.Add(tableLayoutPanel12, 0, 3);
             tableLayoutPanel30.Controls.Add(label91, 0, 0);
             tableLayoutPanel30.Controls.Add(label92, 1, 0);
             tableLayoutPanel30.Controls.Add(label93, 2, 0);
-            tableLayoutPanel30.Controls.Add(tableLayoutPanel39, 0, 2);
             tableLayoutPanel30.Controls.Add(tableLayoutPanel34, 0, 1);
+            tableLayoutPanel30.Controls.Add(tableLayoutPanel16, 1, 3);
             tableLayoutPanel30.Dock = DockStyle.Fill;
-            tableLayoutPanel30.Location = new Point(42, 37);
+            tableLayoutPanel30.Location = new Point(43, 49);
             tableLayoutPanel30.Name = "tableLayoutPanel30";
             tableLayoutPanel30.RowCount = 4;
-            tableLayoutPanel30.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
+            tableLayoutPanel30.RowStyles.Add(new RowStyle(SizeType.Absolute, 28F));
             tableLayoutPanel30.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel30.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel30.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel30.Size = new Size(725, 498);
+            tableLayoutPanel30.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel30.Size = new Size(748, 490);
             tableLayoutPanel30.TabIndex = 25;
             // 
-            // tableLayoutPanel31
+            // tableLayoutPanel20
             // 
-            tableLayoutPanel31.BackColor = Color.Black;
-            tableLayoutPanel31.ColumnCount = 1;
-            tableLayoutPanel31.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel31.Controls.Add(label67, 0, 0);
-            tableLayoutPanel31.Controls.Add(label68, 0, 1);
-            tableLayoutPanel31.Controls.Add(label69, 0, 2);
-            tableLayoutPanel31.Dock = DockStyle.Fill;
-            tableLayoutPanel31.Location = new Point(487, 188);
-            tableLayoutPanel31.Name = "tableLayoutPanel31";
-            tableLayoutPanel31.RowCount = 3;
-            tableLayoutPanel31.RowStyles.Add(new RowStyle(SizeType.Percent, 35.294117F));
-            tableLayoutPanel31.RowStyles.Add(new RowStyle(SizeType.Percent, 64.70588F));
-            tableLayoutPanel31.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
-            tableLayoutPanel31.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel31.Size = new Size(235, 149);
-            tableLayoutPanel31.TabIndex = 11;
+            tableLayoutPanel20.BackColor = Color.Black;
+            tableLayoutPanel20.ColumnCount = 1;
+            tableLayoutPanel20.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel20.Controls.Add(label39, 0, 2);
+            tableLayoutPanel20.Controls.Add(tasca6, 0, 0);
+            tableLayoutPanel20.Controls.Add(label42, 0, 1);
+            tableLayoutPanel20.Dock = DockStyle.Fill;
+            tableLayoutPanel20.Location = new Point(501, 184);
+            tableLayoutPanel20.Name = "tableLayoutPanel20";
+            tableLayoutPanel20.RowCount = 3;
+            tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Percent, 57F));
+            tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
+            tableLayoutPanel20.Size = new Size(244, 147);
+            tableLayoutPanel20.TabIndex = 22;
             // 
-            // label67
+            // label39
             // 
-            label67.Anchor = AnchorStyles.None;
-            label67.AutoSize = true;
-            label67.BackColor = Color.FromArgb(64, 64, 64);
-            label67.ForeColor = SystemColors.ButtonFace;
-            label67.Location = new Point(83, 12);
-            label67.Name = "label67";
-            label67.Padding = new Padding(2);
-            label67.Size = new Size(69, 19);
-            label67.TabIndex = 4;
-            label67.Text = "Nom Tasca";
+            label39.Anchor = AnchorStyles.Top;
+            label39.AutoSize = true;
+            label39.BackColor = Color.SandyBrown;
+            label39.ForeColor = Color.Black;
+            label39.Location = new Point(115, 119);
+            label39.Name = "label39";
+            label39.Size = new Size(13, 15);
+            label39.TabIndex = 7;
+            label39.Text = "2";
             // 
-            // label68
+            // tasca6
             // 
-            label68.AutoSize = true;
-            label68.BackColor = Color.Black;
-            label68.Dock = DockStyle.Fill;
-            label68.Font = new Font("Segoe UI", 11.25F);
-            label68.ForeColor = SystemColors.ButtonFace;
-            label68.Location = new Point(10, 43);
-            label68.Margin = new Padding(10, 0, 3, 0);
-            label68.Name = "label68";
-            label68.Size = new Size(222, 80);
-            label68.TabIndex = 5;
-            label68.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            tasca6.Anchor = AnchorStyles.None;
+            tasca6.AutoSize = true;
+            tasca6.BackColor = Color.FromArgb(64, 64, 64);
+            tasca6.Font = new Font("Alef", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tasca6.ForeColor = SystemColors.ButtonFace;
+            tasca6.Location = new Point(78, 10);
+            tasca6.Margin = new Padding(0, 8, 0, 0);
+            tasca6.Name = "tasca6";
+            tasca6.Padding = new Padding(2);
+            tasca6.Size = new Size(88, 24);
+            tasca6.TabIndex = 4;
+            tasca6.Text = "Nom Tasca";
+            tasca6.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label69
+            // label42
             // 
-            label69.Anchor = AnchorStyles.None;
-            label69.AutoSize = true;
-            label69.BackColor = Color.SandyBrown;
-            label69.ForeColor = Color.Black;
-            label69.Location = new Point(111, 128);
-            label69.Name = "label69";
-            label69.Size = new Size(13, 15);
-            label69.TabIndex = 6;
-            label69.Text = "2";
+            label42.AutoSize = true;
+            label42.BackColor = Color.Black;
+            label42.Dock = DockStyle.Fill;
+            label42.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label42.ForeColor = SystemColors.ButtonFace;
+            label42.Location = new Point(3, 36);
+            label42.Name = "label42";
+            label42.Padding = new Padding(5, 5, 5, 0);
+            label42.Size = new Size(238, 83);
+            label42.TabIndex = 5;
+            label42.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
             // 
-            // tableLayoutPanel32
+            // tableLayoutPanel19
             // 
-            tableLayoutPanel32.BackColor = Color.Black;
-            tableLayoutPanel32.ColumnCount = 1;
-            tableLayoutPanel32.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel32.Controls.Add(label70, 0, 0);
-            tableLayoutPanel32.Controls.Add(label71, 0, 1);
-            tableLayoutPanel32.Controls.Add(label72, 0, 2);
-            tableLayoutPanel32.Dock = DockStyle.Fill;
-            tableLayoutPanel32.Location = new Point(487, 33);
-            tableLayoutPanel32.Name = "tableLayoutPanel32";
-            tableLayoutPanel32.Padding = new Padding(2);
-            tableLayoutPanel32.RowCount = 3;
-            tableLayoutPanel32.RowStyles.Add(new RowStyle(SizeType.Percent, 35.294117F));
-            tableLayoutPanel32.RowStyles.Add(new RowStyle(SizeType.Percent, 64.70588F));
-            tableLayoutPanel32.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
-            tableLayoutPanel32.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel32.Size = new Size(235, 149);
-            tableLayoutPanel32.TabIndex = 9;
+            tableLayoutPanel19.BackColor = Color.Black;
+            tableLayoutPanel19.ColumnCount = 1;
+            tableLayoutPanel19.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel19.Controls.Add(label36, 0, 2);
+            tableLayoutPanel19.Controls.Add(tasca5, 0, 0);
+            tableLayoutPanel19.Controls.Add(label38, 0, 1);
+            tableLayoutPanel19.Dock = DockStyle.Fill;
+            tableLayoutPanel19.Location = new Point(252, 184);
+            tableLayoutPanel19.Name = "tableLayoutPanel19";
+            tableLayoutPanel19.RowCount = 3;
+            tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 57F));
+            tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
+            tableLayoutPanel19.Size = new Size(243, 147);
+            tableLayoutPanel19.TabIndex = 21;
             // 
-            // label70
+            // label36
             // 
-            label70.Anchor = AnchorStyles.None;
-            label70.AutoSize = true;
-            label70.BackColor = Color.FromArgb(64, 64, 64);
-            label70.ForeColor = SystemColors.ButtonFace;
-            label70.Location = new Point(83, 13);
-            label70.Name = "label70";
-            label70.Padding = new Padding(2);
-            label70.Size = new Size(69, 19);
-            label70.TabIndex = 4;
-            label70.Text = "Nom Tasca";
+            label36.Anchor = AnchorStyles.Top;
+            label36.AutoSize = true;
+            label36.BackColor = Color.SandyBrown;
+            label36.ForeColor = Color.Black;
+            label36.Location = new Point(115, 119);
+            label36.Name = "label36";
+            label36.Size = new Size(13, 15);
+            label36.TabIndex = 7;
+            label36.Text = "2";
             // 
-            // label71
+            // tasca5
             // 
-            label71.AutoSize = true;
-            label71.BackColor = Color.Black;
-            label71.Dock = DockStyle.Fill;
-            label71.Font = new Font("Segoe UI", 11.25F);
-            label71.ForeColor = SystemColors.ButtonFace;
-            label71.Location = new Point(12, 44);
-            label71.Margin = new Padding(10, 0, 3, 0);
-            label71.Name = "label71";
-            label71.Size = new Size(218, 77);
-            label71.TabIndex = 5;
-            label71.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            tasca5.Anchor = AnchorStyles.None;
+            tasca5.AutoSize = true;
+            tasca5.BackColor = Color.FromArgb(64, 64, 64);
+            tasca5.Font = new Font("Alef", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tasca5.ForeColor = SystemColors.ButtonFace;
+            tasca5.Location = new Point(77, 10);
+            tasca5.Margin = new Padding(0, 8, 0, 0);
+            tasca5.Name = "tasca5";
+            tasca5.Padding = new Padding(2);
+            tasca5.Size = new Size(88, 24);
+            tasca5.TabIndex = 4;
+            tasca5.Text = "Nom Tasca";
+            tasca5.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label72
+            // label38
             // 
-            label72.Anchor = AnchorStyles.None;
-            label72.AutoSize = true;
-            label72.BackColor = Color.PaleGreen;
-            label72.ForeColor = Color.Black;
-            label72.Location = new Point(111, 126);
-            label72.Name = "label72";
-            label72.Size = new Size(13, 15);
-            label72.TabIndex = 6;
-            label72.Text = "1";
+            label38.AutoSize = true;
+            label38.BackColor = Color.Black;
+            label38.Dock = DockStyle.Fill;
+            label38.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label38.ForeColor = SystemColors.ButtonFace;
+            label38.Location = new Point(3, 36);
+            label38.Name = "label38";
+            label38.Padding = new Padding(5, 5, 5, 0);
+            label38.Size = new Size(237, 83);
+            label38.TabIndex = 5;
+            label38.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
             // 
-            // tableLayoutPanel33
+            // tableLayoutPanel18
             // 
-            tableLayoutPanel33.BackColor = Color.Black;
-            tableLayoutPanel33.ColumnCount = 1;
-            tableLayoutPanel33.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel33.Controls.Add(label73, 0, 0);
-            tableLayoutPanel33.Controls.Add(label74, 0, 1);
-            tableLayoutPanel33.Controls.Add(label75, 0, 2);
-            tableLayoutPanel33.Dock = DockStyle.Fill;
-            tableLayoutPanel33.Location = new Point(248, 33);
-            tableLayoutPanel33.Name = "tableLayoutPanel33";
-            tableLayoutPanel33.RowCount = 3;
-            tableLayoutPanel33.RowStyles.Add(new RowStyle(SizeType.Percent, 35.294117F));
-            tableLayoutPanel33.RowStyles.Add(new RowStyle(SizeType.Percent, 64.70588F));
-            tableLayoutPanel33.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
-            tableLayoutPanel33.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel33.Size = new Size(233, 149);
-            tableLayoutPanel33.TabIndex = 10;
+            tableLayoutPanel18.BackColor = Color.Black;
+            tableLayoutPanel18.ColumnCount = 1;
+            tableLayoutPanel18.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel18.Controls.Add(tasca4, 0, 0);
+            tableLayoutPanel18.Controls.Add(label34, 0, 1);
+            tableLayoutPanel18.Controls.Add(label35, 0, 2);
+            tableLayoutPanel18.Dock = DockStyle.Fill;
+            tableLayoutPanel18.Location = new Point(3, 184);
+            tableLayoutPanel18.Name = "tableLayoutPanel18";
+            tableLayoutPanel18.RowCount = 3;
+            tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Percent, 57F));
+            tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
+            tableLayoutPanel18.Size = new Size(243, 147);
+            tableLayoutPanel18.TabIndex = 20;
             // 
-            // label73
+            // tasca4
             // 
-            label73.Anchor = AnchorStyles.None;
-            label73.AutoSize = true;
-            label73.BackColor = Color.FromArgb(64, 64, 64);
-            label73.ForeColor = SystemColors.ButtonFace;
-            label73.Location = new Point(82, 12);
-            label73.Name = "label73";
-            label73.Padding = new Padding(2);
-            label73.Size = new Size(69, 19);
-            label73.TabIndex = 4;
-            label73.Text = "Nom Tasca";
+            tasca4.Anchor = AnchorStyles.None;
+            tasca4.AutoSize = true;
+            tasca4.BackColor = Color.FromArgb(64, 64, 64);
+            tasca4.Font = new Font("Alef", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tasca4.ForeColor = SystemColors.ButtonFace;
+            tasca4.Location = new Point(77, 10);
+            tasca4.Margin = new Padding(0, 8, 0, 0);
+            tasca4.Name = "tasca4";
+            tasca4.Padding = new Padding(2);
+            tasca4.Size = new Size(88, 24);
+            tasca4.TabIndex = 4;
+            tasca4.Text = "Nom Tasca";
+            tasca4.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label74
+            // label34
             // 
-            label74.AutoSize = true;
-            label74.BackColor = Color.Black;
-            label74.Dock = DockStyle.Fill;
-            label74.Font = new Font("Segoe UI", 11.25F);
-            label74.ForeColor = SystemColors.ButtonFace;
-            label74.Location = new Point(10, 43);
-            label74.Margin = new Padding(10, 0, 3, 0);
-            label74.Name = "label74";
-            label74.Size = new Size(220, 80);
-            label74.TabIndex = 5;
-            label74.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            label34.AutoSize = true;
+            label34.BackColor = Color.Black;
+            label34.Dock = DockStyle.Fill;
+            label34.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label34.ForeColor = SystemColors.ButtonFace;
+            label34.Location = new Point(3, 36);
+            label34.Name = "label34";
+            label34.Padding = new Padding(5, 5, 5, 0);
+            label34.Size = new Size(237, 83);
+            label34.TabIndex = 5;
+            label34.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
             // 
-            // label75
+            // label35
             // 
-            label75.Anchor = AnchorStyles.None;
-            label75.AutoSize = true;
-            label75.BackColor = Color.SandyBrown;
-            label75.ForeColor = Color.Black;
-            label75.Location = new Point(110, 128);
-            label75.Name = "label75";
-            label75.Size = new Size(13, 15);
-            label75.TabIndex = 6;
-            label75.Text = "2";
+            label35.Anchor = AnchorStyles.Top;
+            label35.AutoSize = true;
+            label35.BackColor = Color.PaleGreen;
+            label35.ForeColor = Color.Black;
+            label35.Location = new Point(115, 119);
+            label35.Name = "label35";
+            label35.Size = new Size(13, 15);
+            label35.TabIndex = 6;
+            label35.Text = "1";
             // 
-            // tableLayoutPanel35
+            // tableLayoutPanel17
             // 
-            tableLayoutPanel35.BackColor = Color.Black;
-            tableLayoutPanel35.ColumnCount = 1;
-            tableLayoutPanel35.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel35.Controls.Add(label79, 0, 0);
-            tableLayoutPanel35.Controls.Add(label80, 0, 1);
-            tableLayoutPanel35.Controls.Add(label81, 0, 2);
-            tableLayoutPanel35.Dock = DockStyle.Fill;
-            tableLayoutPanel35.Location = new Point(248, 343);
-            tableLayoutPanel35.Name = "tableLayoutPanel35";
-            tableLayoutPanel35.RowCount = 3;
-            tableLayoutPanel35.RowStyles.Add(new RowStyle(SizeType.Percent, 35.294117F));
-            tableLayoutPanel35.RowStyles.Add(new RowStyle(SizeType.Percent, 64.70588F));
-            tableLayoutPanel35.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
-            tableLayoutPanel35.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel35.Size = new Size(233, 152);
-            tableLayoutPanel35.TabIndex = 11;
+            tableLayoutPanel17.BackColor = Color.Black;
+            tableLayoutPanel17.ColumnCount = 1;
+            tableLayoutPanel17.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel17.Controls.Add(tasca3, 0, 0);
+            tableLayoutPanel17.Controls.Add(label31, 0, 1);
+            tableLayoutPanel17.Controls.Add(label32, 0, 2);
+            tableLayoutPanel17.Dock = DockStyle.Fill;
+            tableLayoutPanel17.Location = new Point(501, 31);
+            tableLayoutPanel17.Name = "tableLayoutPanel17";
+            tableLayoutPanel17.RowCount = 3;
+            tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Percent, 57F));
+            tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
+            tableLayoutPanel17.Size = new Size(244, 147);
+            tableLayoutPanel17.TabIndex = 19;
             // 
-            // label79
+            // tasca3
             // 
-            label79.Anchor = AnchorStyles.None;
-            label79.AutoSize = true;
-            label79.BackColor = Color.FromArgb(64, 64, 64);
-            label79.ForeColor = SystemColors.ButtonFace;
-            label79.Location = new Point(82, 12);
-            label79.Name = "label79";
-            label79.Padding = new Padding(2);
-            label79.Size = new Size(69, 19);
-            label79.TabIndex = 4;
-            label79.Text = "Nom Tasca";
+            tasca3.Anchor = AnchorStyles.None;
+            tasca3.AutoSize = true;
+            tasca3.BackColor = Color.FromArgb(64, 64, 64);
+            tasca3.Font = new Font("Alef", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tasca3.ForeColor = SystemColors.ButtonFace;
+            tasca3.Location = new Point(78, 10);
+            tasca3.Margin = new Padding(0, 8, 0, 0);
+            tasca3.Name = "tasca3";
+            tasca3.Padding = new Padding(2);
+            tasca3.Size = new Size(88, 24);
+            tasca3.TabIndex = 4;
+            tasca3.Text = "Nom Tasca";
+            tasca3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label80
+            // label31
             // 
-            label80.AutoSize = true;
-            label80.BackColor = Color.Black;
-            label80.Dock = DockStyle.Fill;
-            label80.Font = new Font("Segoe UI", 11.25F);
-            label80.ForeColor = SystemColors.ButtonFace;
-            label80.Location = new Point(10, 44);
-            label80.Margin = new Padding(10, 0, 3, 0);
-            label80.Name = "label80";
-            label80.Size = new Size(220, 82);
-            label80.TabIndex = 5;
-            label80.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            label31.AutoSize = true;
+            label31.BackColor = Color.Black;
+            label31.Dock = DockStyle.Fill;
+            label31.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label31.ForeColor = SystemColors.ButtonFace;
+            label31.Location = new Point(3, 36);
+            label31.Name = "label31";
+            label31.Padding = new Padding(5, 5, 5, 0);
+            label31.Size = new Size(238, 83);
+            label31.TabIndex = 5;
+            label31.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
             // 
-            // label81
+            // label32
             // 
-            label81.Anchor = AnchorStyles.None;
-            label81.AutoSize = true;
-            label81.BackColor = Color.PaleGreen;
-            label81.ForeColor = Color.Black;
-            label81.Location = new Point(110, 131);
-            label81.Name = "label81";
-            label81.Size = new Size(13, 15);
-            label81.TabIndex = 6;
-            label81.Text = "1";
+            label32.Anchor = AnchorStyles.Top;
+            label32.AutoSize = true;
+            label32.BackColor = Color.PaleGreen;
+            label32.ForeColor = Color.Black;
+            label32.Location = new Point(115, 119);
+            label32.Name = "label32";
+            label32.Size = new Size(13, 15);
+            label32.TabIndex = 6;
+            label32.Text = "1";
             // 
-            // tableLayoutPanel36
+            // tableLayoutPanel11
             // 
-            tableLayoutPanel36.BackColor = Color.Black;
-            tableLayoutPanel36.ColumnCount = 1;
-            tableLayoutPanel36.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel36.Controls.Add(label82, 0, 0);
-            tableLayoutPanel36.Controls.Add(label83, 0, 1);
-            tableLayoutPanel36.Controls.Add(label84, 0, 2);
-            tableLayoutPanel36.Dock = DockStyle.Fill;
-            tableLayoutPanel36.Location = new Point(487, 343);
-            tableLayoutPanel36.Name = "tableLayoutPanel36";
-            tableLayoutPanel36.RowCount = 3;
-            tableLayoutPanel36.RowStyles.Add(new RowStyle(SizeType.Percent, 35.294117F));
-            tableLayoutPanel36.RowStyles.Add(new RowStyle(SizeType.Percent, 64.70588F));
-            tableLayoutPanel36.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
-            tableLayoutPanel36.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel36.Size = new Size(235, 152);
-            tableLayoutPanel36.TabIndex = 10;
+            tableLayoutPanel11.BackColor = Color.Black;
+            tableLayoutPanel11.ColumnCount = 1;
+            tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel11.Controls.Add(tasca2, 0, 0);
+            tableLayoutPanel11.Controls.Add(label14, 0, 1);
+            tableLayoutPanel11.Controls.Add(label15, 0, 2);
+            tableLayoutPanel11.Dock = DockStyle.Fill;
+            tableLayoutPanel11.Location = new Point(252, 31);
+            tableLayoutPanel11.Name = "tableLayoutPanel11";
+            tableLayoutPanel11.RowCount = 3;
+            tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 57F));
+            tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
+            tableLayoutPanel11.Size = new Size(243, 147);
+            tableLayoutPanel11.TabIndex = 18;
             // 
-            // label82
+            // tasca2
             // 
-            label82.Anchor = AnchorStyles.None;
-            label82.AutoSize = true;
-            label82.BackColor = Color.FromArgb(64, 64, 64);
-            label82.ForeColor = SystemColors.ButtonFace;
-            label82.Location = new Point(83, 12);
-            label82.Name = "label82";
-            label82.Padding = new Padding(2);
-            label82.Size = new Size(69, 19);
-            label82.TabIndex = 4;
-            label82.Text = "Nom Tasca";
+            tasca2.Anchor = AnchorStyles.None;
+            tasca2.AutoSize = true;
+            tasca2.BackColor = Color.FromArgb(64, 64, 64);
+            tasca2.Font = new Font("Alef", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tasca2.ForeColor = SystemColors.ButtonFace;
+            tasca2.Location = new Point(77, 10);
+            tasca2.Margin = new Padding(0, 8, 0, 0);
+            tasca2.Name = "tasca2";
+            tasca2.Padding = new Padding(2);
+            tasca2.Size = new Size(88, 24);
+            tasca2.TabIndex = 4;
+            tasca2.Text = "Nom Tasca";
+            tasca2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label83
+            // label14
             // 
-            label83.AutoSize = true;
-            label83.BackColor = Color.Black;
-            label83.Dock = DockStyle.Fill;
-            label83.Font = new Font("Segoe UI", 11.25F);
-            label83.ForeColor = SystemColors.ButtonFace;
-            label83.Location = new Point(10, 44);
-            label83.Margin = new Padding(10, 0, 3, 0);
-            label83.Name = "label83";
-            label83.Size = new Size(222, 82);
-            label83.TabIndex = 5;
-            label83.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            label14.AutoSize = true;
+            label14.BackColor = Color.Black;
+            label14.Dock = DockStyle.Fill;
+            label14.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label14.ForeColor = SystemColors.ButtonFace;
+            label14.Location = new Point(3, 36);
+            label14.Name = "label14";
+            label14.Padding = new Padding(5, 5, 5, 0);
+            label14.Size = new Size(237, 83);
+            label14.TabIndex = 5;
+            label14.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
             // 
-            // label84
+            // label15
             // 
-            label84.Anchor = AnchorStyles.None;
-            label84.AutoSize = true;
-            label84.BackColor = Color.IndianRed;
-            label84.ForeColor = Color.Black;
-            label84.Location = new Point(111, 131);
-            label84.Name = "label84";
-            label84.Size = new Size(13, 15);
-            label84.TabIndex = 6;
-            label84.Text = "3";
+            label15.Anchor = AnchorStyles.Top;
+            label15.AutoSize = true;
+            label15.BackColor = Color.PaleGreen;
+            label15.ForeColor = Color.Black;
+            label15.Location = new Point(115, 119);
+            label15.Name = "label15";
+            label15.Size = new Size(13, 15);
+            label15.TabIndex = 6;
+            label15.Text = "1";
             // 
-            // tableLayoutPanel37
+            // tableLayoutPanel10
             // 
-            tableLayoutPanel37.BackColor = Color.Black;
-            tableLayoutPanel37.ColumnCount = 1;
-            tableLayoutPanel37.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel37.Controls.Add(label85, 0, 0);
-            tableLayoutPanel37.Controls.Add(label86, 0, 1);
-            tableLayoutPanel37.Controls.Add(label87, 0, 2);
-            tableLayoutPanel37.Dock = DockStyle.Fill;
-            tableLayoutPanel37.Location = new Point(3, 343);
-            tableLayoutPanel37.Name = "tableLayoutPanel37";
-            tableLayoutPanel37.RowCount = 3;
-            tableLayoutPanel37.RowStyles.Add(new RowStyle(SizeType.Percent, 35.294117F));
-            tableLayoutPanel37.RowStyles.Add(new RowStyle(SizeType.Percent, 64.70588F));
-            tableLayoutPanel37.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
-            tableLayoutPanel37.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel37.Size = new Size(239, 152);
-            tableLayoutPanel37.TabIndex = 9;
+            tableLayoutPanel10.BackColor = Color.Black;
+            tableLayoutPanel10.ColumnCount = 1;
+            tableLayoutPanel10.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel10.Controls.Add(tasca7, 0, 0);
+            tableLayoutPanel10.Controls.Add(label10, 0, 1);
+            tableLayoutPanel10.Controls.Add(label11, 0, 2);
+            tableLayoutPanel10.Dock = DockStyle.Fill;
+            tableLayoutPanel10.Location = new Point(3, 337);
+            tableLayoutPanel10.Name = "tableLayoutPanel10";
+            tableLayoutPanel10.RowCount = 3;
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 57F));
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
+            tableLayoutPanel10.Size = new Size(243, 150);
+            tableLayoutPanel10.TabIndex = 16;
             // 
-            // label85
+            // tasca7
             // 
-            label85.Anchor = AnchorStyles.None;
-            label85.AutoSize = true;
-            label85.BackColor = Color.FromArgb(64, 64, 64);
-            label85.ForeColor = SystemColors.ButtonFace;
-            label85.Location = new Point(85, 12);
-            label85.Name = "label85";
-            label85.Padding = new Padding(2);
-            label85.Size = new Size(69, 19);
-            label85.TabIndex = 4;
-            label85.Text = "Nom Tasca";
+            tasca7.Anchor = AnchorStyles.None;
+            tasca7.AutoSize = true;
+            tasca7.BackColor = Color.FromArgb(64, 64, 64);
+            tasca7.Font = new Font("Alef", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tasca7.ForeColor = SystemColors.ButtonFace;
+            tasca7.Location = new Point(77, 10);
+            tasca7.Margin = new Padding(0, 8, 0, 0);
+            tasca7.Name = "tasca7";
+            tasca7.Padding = new Padding(2);
+            tasca7.Size = new Size(88, 24);
+            tasca7.TabIndex = 4;
+            tasca7.Text = "Nom Tasca";
+            tasca7.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label86
+            // label10
             // 
-            label86.AutoSize = true;
-            label86.BackColor = Color.Black;
-            label86.Dock = DockStyle.Fill;
-            label86.Font = new Font("Segoe UI", 11.25F);
-            label86.ForeColor = SystemColors.ButtonFace;
-            label86.Location = new Point(10, 44);
-            label86.Margin = new Padding(10, 0, 3, 0);
-            label86.Name = "label86";
-            label86.Size = new Size(226, 82);
-            label86.TabIndex = 5;
-            label86.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            label10.AutoSize = true;
+            label10.BackColor = Color.Black;
+            label10.Dock = DockStyle.Fill;
+            label10.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label10.ForeColor = SystemColors.ButtonFace;
+            label10.Location = new Point(3, 37);
+            label10.Name = "label10";
+            label10.Padding = new Padding(5, 5, 5, 0);
+            label10.Size = new Size(237, 85);
+            label10.TabIndex = 5;
+            label10.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
             // 
-            // label87
+            // label11
             // 
-            label87.Anchor = AnchorStyles.None;
-            label87.AutoSize = true;
-            label87.BackColor = Color.SandyBrown;
-            label87.ForeColor = Color.Black;
-            label87.Location = new Point(113, 131);
-            label87.Name = "label87";
-            label87.Size = new Size(13, 15);
-            label87.TabIndex = 6;
-            label87.Text = "2";
+            label11.Anchor = AnchorStyles.Top;
+            label11.AutoSize = true;
+            label11.BackColor = Color.PaleGreen;
+            label11.ForeColor = Color.Black;
+            label11.Location = new Point(115, 122);
+            label11.Name = "label11";
+            label11.Size = new Size(13, 15);
+            label11.TabIndex = 6;
+            label11.Text = "1";
             // 
-            // tableLayoutPanel38
+            // tableLayoutPanel12
             // 
-            tableLayoutPanel38.BackColor = Color.Black;
-            tableLayoutPanel38.ColumnCount = 1;
-            tableLayoutPanel38.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel38.Controls.Add(label88, 0, 0);
-            tableLayoutPanel38.Controls.Add(label89, 0, 1);
-            tableLayoutPanel38.Controls.Add(label90, 0, 2);
-            tableLayoutPanel38.Dock = DockStyle.Fill;
-            tableLayoutPanel38.Location = new Point(248, 188);
-            tableLayoutPanel38.Name = "tableLayoutPanel38";
-            tableLayoutPanel38.RowCount = 3;
-            tableLayoutPanel38.RowStyles.Add(new RowStyle(SizeType.Percent, 35.294117F));
-            tableLayoutPanel38.RowStyles.Add(new RowStyle(SizeType.Percent, 64.70588F));
-            tableLayoutPanel38.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
-            tableLayoutPanel38.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel38.Size = new Size(233, 149);
-            tableLayoutPanel38.TabIndex = 8;
+            tableLayoutPanel12.BackColor = Color.Black;
+            tableLayoutPanel12.ColumnCount = 1;
+            tableLayoutPanel12.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel12.Controls.Add(label16, 0, 2);
+            tableLayoutPanel12.Controls.Add(tasca8, 0, 0);
+            tableLayoutPanel12.Controls.Add(label18, 0, 1);
+            tableLayoutPanel12.Dock = DockStyle.Fill;
+            tableLayoutPanel12.Location = new Point(252, 337);
+            tableLayoutPanel12.Name = "tableLayoutPanel12";
+            tableLayoutPanel12.RowCount = 3;
+            tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 57F));
+            tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
+            tableLayoutPanel12.Size = new Size(243, 150);
+            tableLayoutPanel12.TabIndex = 15;
             // 
-            // label88
+            // label16
             // 
-            label88.Anchor = AnchorStyles.None;
-            label88.AutoSize = true;
-            label88.BackColor = Color.FromArgb(64, 64, 64);
-            label88.ForeColor = SystemColors.ButtonFace;
-            label88.Location = new Point(82, 12);
-            label88.Name = "label88";
-            label88.Padding = new Padding(2);
-            label88.Size = new Size(69, 19);
-            label88.TabIndex = 4;
-            label88.Text = "Nom Tasca";
+            label16.Anchor = AnchorStyles.Top;
+            label16.AutoSize = true;
+            label16.BackColor = Color.SandyBrown;
+            label16.ForeColor = Color.Black;
+            label16.Location = new Point(115, 122);
+            label16.Name = "label16";
+            label16.Size = new Size(13, 15);
+            label16.TabIndex = 7;
+            label16.Text = "2";
             // 
-            // label89
+            // tasca8
             // 
-            label89.AutoSize = true;
-            label89.BackColor = Color.Black;
-            label89.Dock = DockStyle.Fill;
-            label89.Font = new Font("Segoe UI", 11.25F);
-            label89.ForeColor = SystemColors.ButtonFace;
-            label89.Location = new Point(10, 43);
-            label89.Margin = new Padding(10, 0, 3, 0);
-            label89.Name = "label89";
-            label89.Size = new Size(220, 80);
-            label89.TabIndex = 5;
-            label89.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            tasca8.Anchor = AnchorStyles.None;
+            tasca8.AutoSize = true;
+            tasca8.BackColor = Color.FromArgb(64, 64, 64);
+            tasca8.Font = new Font("Alef", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tasca8.ForeColor = SystemColors.ButtonFace;
+            tasca8.Location = new Point(77, 10);
+            tasca8.Margin = new Padding(0, 8, 0, 0);
+            tasca8.Name = "tasca8";
+            tasca8.Padding = new Padding(2);
+            tasca8.Size = new Size(88, 24);
+            tasca8.TabIndex = 4;
+            tasca8.Text = "Nom Tasca";
+            tasca8.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label90
+            // label18
             // 
-            label90.Anchor = AnchorStyles.None;
-            label90.AutoSize = true;
-            label90.BackColor = Color.PaleGreen;
-            label90.ForeColor = Color.Black;
-            label90.Location = new Point(110, 128);
-            label90.Name = "label90";
-            label90.Size = new Size(13, 15);
-            label90.TabIndex = 6;
-            label90.Text = "1";
+            label18.AutoSize = true;
+            label18.BackColor = Color.Black;
+            label18.Dock = DockStyle.Fill;
+            label18.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label18.ForeColor = SystemColors.ButtonFace;
+            label18.Location = new Point(3, 37);
+            label18.Name = "label18";
+            label18.Padding = new Padding(5, 5, 5, 0);
+            label18.Size = new Size(237, 85);
+            label18.TabIndex = 5;
+            label18.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
             // 
             // label91
             // 
             label91.AutoSize = true;
             label91.Dock = DockStyle.Fill;
-            label91.Font = new Font("Source Sans Pro", 14.25F);
+            label91.Font = new Font("Verdana", 14.25F);
             label91.ForeColor = SystemColors.ButtonFace;
             label91.Location = new Point(3, 0);
             label91.Name = "label91";
-            label91.Size = new Size(239, 30);
+            label91.Size = new Size(243, 28);
             label91.TabIndex = 0;
-            label91.Text = "Started";
+            label91.Text = "En espera";
             label91.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label92
             // 
             label92.AutoSize = true;
             label92.Dock = DockStyle.Fill;
-            label92.Font = new Font("Source Sans Pro", 14.25F);
+            label92.Font = new Font("Verdana", 14.25F);
             label92.ForeColor = SystemColors.ButtonFace;
-            label92.Location = new Point(248, 0);
+            label92.Location = new Point(252, 0);
             label92.Name = "label92";
-            label92.Size = new Size(233, 30);
+            label92.Size = new Size(243, 28);
             label92.TabIndex = 1;
-            label92.Text = "In Process";
+            label92.Text = "En procés";
             label92.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label93
             // 
             label93.AutoSize = true;
             label93.Dock = DockStyle.Fill;
-            label93.Font = new Font("Source Sans Pro", 14.25F);
+            label93.Font = new Font("Verdana", 14.25F);
             label93.ForeColor = SystemColors.ButtonFace;
-            label93.Location = new Point(487, 0);
+            label93.Location = new Point(501, 0);
             label93.Name = "label93";
-            label93.Size = new Size(235, 30);
+            label93.Size = new Size(244, 28);
             label93.TabIndex = 2;
-            label93.Text = "Completed";
+            label93.Text = "Completats";
             label93.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel39
-            // 
-            tableLayoutPanel39.BackColor = Color.Black;
-            tableLayoutPanel39.ColumnCount = 1;
-            tableLayoutPanel39.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel39.Controls.Add(label94, 0, 0);
-            tableLayoutPanel39.Controls.Add(label95, 0, 1);
-            tableLayoutPanel39.Controls.Add(label96, 0, 2);
-            tableLayoutPanel39.Dock = DockStyle.Fill;
-            tableLayoutPanel39.Location = new Point(3, 188);
-            tableLayoutPanel39.Name = "tableLayoutPanel39";
-            tableLayoutPanel39.RowCount = 3;
-            tableLayoutPanel39.RowStyles.Add(new RowStyle(SizeType.Percent, 35.294117F));
-            tableLayoutPanel39.RowStyles.Add(new RowStyle(SizeType.Percent, 64.70588F));
-            tableLayoutPanel39.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
-            tableLayoutPanel39.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel39.Size = new Size(239, 149);
-            tableLayoutPanel39.TabIndex = 11;
-            // 
-            // label94
-            // 
-            label94.Anchor = AnchorStyles.None;
-            label94.AutoSize = true;
-            label94.BackColor = Color.FromArgb(64, 64, 64);
-            label94.ForeColor = SystemColors.ButtonFace;
-            label94.Location = new Point(85, 12);
-            label94.Name = "label94";
-            label94.Padding = new Padding(2);
-            label94.Size = new Size(69, 19);
-            label94.TabIndex = 4;
-            label94.Text = "Nom Tasca";
-            // 
-            // label95
-            // 
-            label95.AutoSize = true;
-            label95.BackColor = Color.Black;
-            label95.Dock = DockStyle.Fill;
-            label95.Font = new Font("Segoe UI", 11.25F);
-            label95.ForeColor = SystemColors.ButtonFace;
-            label95.Location = new Point(10, 43);
-            label95.Margin = new Padding(10, 0, 3, 0);
-            label95.Name = "label95";
-            label95.Size = new Size(226, 80);
-            label95.TabIndex = 5;
-            label95.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
-            // 
-            // label96
-            // 
-            label96.Anchor = AnchorStyles.None;
-            label96.AutoSize = true;
-            label96.BackColor = Color.IndianRed;
-            label96.ForeColor = Color.Black;
-            label96.Location = new Point(113, 128);
-            label96.Name = "label96";
-            label96.Size = new Size(13, 15);
-            label96.TabIndex = 6;
-            label96.Text = "3";
             // 
             // tableLayoutPanel34
             // 
             tableLayoutPanel34.BackColor = Color.Black;
             tableLayoutPanel34.ColumnCount = 1;
-            tableLayoutPanel34.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel34.Controls.Add(label76, 0, 0);
+            tableLayoutPanel34.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel34.Controls.Add(tasca1, 0, 0);
             tableLayoutPanel34.Controls.Add(label77, 0, 1);
             tableLayoutPanel34.Controls.Add(label78, 0, 2);
             tableLayoutPanel34.Dock = DockStyle.Fill;
-            tableLayoutPanel34.Location = new Point(3, 33);
+            tableLayoutPanel34.Location = new Point(3, 31);
             tableLayoutPanel34.Name = "tableLayoutPanel34";
             tableLayoutPanel34.RowCount = 3;
-            tableLayoutPanel34.RowStyles.Add(new RowStyle(SizeType.Percent, 35.294117F));
-            tableLayoutPanel34.RowStyles.Add(new RowStyle(SizeType.Percent, 64.70588F));
-            tableLayoutPanel34.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
-            tableLayoutPanel34.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel34.Size = new Size(239, 149);
+            tableLayoutPanel34.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel34.RowStyles.Add(new RowStyle(SizeType.Percent, 57F));
+            tableLayoutPanel34.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
+            tableLayoutPanel34.Size = new Size(243, 147);
             tableLayoutPanel34.TabIndex = 12;
             // 
-            // label76
+            // tasca1
             // 
-            label76.Anchor = AnchorStyles.None;
-            label76.AutoSize = true;
-            label76.BackColor = Color.FromArgb(64, 64, 64);
-            label76.ForeColor = SystemColors.ButtonFace;
-            label76.Location = new Point(85, 12);
-            label76.Name = "label76";
-            label76.Padding = new Padding(2);
-            label76.Size = new Size(69, 19);
-            label76.TabIndex = 4;
-            label76.Text = "Nom Tasca";
+            tasca1.Anchor = AnchorStyles.None;
+            tasca1.AutoSize = true;
+            tasca1.BackColor = Color.FromArgb(64, 64, 64);
+            tasca1.Font = new Font("Alef", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tasca1.ForeColor = SystemColors.ButtonFace;
+            tasca1.Location = new Point(77, 10);
+            tasca1.Margin = new Padding(0, 8, 0, 0);
+            tasca1.Name = "tasca1";
+            tasca1.Padding = new Padding(2);
+            tasca1.Size = new Size(88, 24);
+            tasca1.TabIndex = 4;
+            tasca1.Text = "Nom Tasca";
+            tasca1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label77
             // 
             label77.AutoSize = true;
             label77.BackColor = Color.Black;
             label77.Dock = DockStyle.Fill;
-            label77.Font = new Font("Segoe UI", 11.25F);
+            label77.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label77.ForeColor = SystemColors.ButtonFace;
-            label77.Location = new Point(10, 43);
-            label77.Margin = new Padding(10, 0, 3, 0);
+            label77.Location = new Point(3, 36);
             label77.Name = "label77";
-            label77.Size = new Size(226, 80);
+            label77.Padding = new Padding(5, 5, 5, 0);
+            label77.Size = new Size(237, 83);
             label77.TabIndex = 5;
             label77.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
             // 
             // label78
             // 
-            label78.Anchor = AnchorStyles.None;
+            label78.Anchor = AnchorStyles.Top;
             label78.AutoSize = true;
-            label78.BackColor = Color.PaleGreen;
+            label78.BackColor = Color.Red;
             label78.ForeColor = Color.Black;
-            label78.Location = new Point(113, 128);
+            label78.Location = new Point(115, 119);
             label78.Name = "label78";
             label78.Size = new Size(13, 15);
             label78.TabIndex = 6;
-            label78.Text = "1";
+            label78.Text = "3";
+            // 
+            // tableLayoutPanel16
+            // 
+            tableLayoutPanel16.BackColor = Color.Black;
+            tableLayoutPanel16.ColumnCount = 1;
+            tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel16.Controls.Add(tasca9, 0, 0);
+            tableLayoutPanel16.Controls.Add(label28, 0, 1);
+            tableLayoutPanel16.Controls.Add(label29, 0, 2);
+            tableLayoutPanel16.Dock = DockStyle.Fill;
+            tableLayoutPanel16.Location = new Point(501, 337);
+            tableLayoutPanel16.Name = "tableLayoutPanel16";
+            tableLayoutPanel16.RowCount = 3;
+            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 57F));
+            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
+            tableLayoutPanel16.Size = new Size(244, 150);
+            tableLayoutPanel16.TabIndex = 17;
+            // 
+            // tasca9
+            // 
+            tasca9.Anchor = AnchorStyles.None;
+            tasca9.AutoSize = true;
+            tasca9.BackColor = Color.FromArgb(64, 64, 64);
+            tasca9.Font = new Font("Alef", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tasca9.ForeColor = SystemColors.ButtonFace;
+            tasca9.Location = new Point(78, 10);
+            tasca9.Margin = new Padding(0, 8, 0, 0);
+            tasca9.Name = "tasca9";
+            tasca9.Padding = new Padding(2);
+            tasca9.Size = new Size(88, 24);
+            tasca9.TabIndex = 4;
+            tasca9.Text = "Nom Tasca";
+            tasca9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.BackColor = Color.Black;
+            label28.Dock = DockStyle.Fill;
+            label28.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label28.ForeColor = SystemColors.ButtonFace;
+            label28.Location = new Point(3, 37);
+            label28.Name = "label28";
+            label28.Padding = new Padding(5, 5, 5, 0);
+            label28.Size = new Size(238, 85);
+            label28.TabIndex = 5;
+            label28.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            // 
+            // label29
+            // 
+            label29.Anchor = AnchorStyles.Top;
+            label29.AutoSize = true;
+            label29.BackColor = Color.Red;
+            label29.ForeColor = Color.Black;
+            label29.Location = new Point(115, 122);
+            label29.Name = "label29";
+            label29.Size = new Size(13, 15);
+            label29.TabIndex = 6;
+            label29.Text = "1";
             // 
             // label13
             // 
             label13.AutoSize = true;
             label13.Dock = DockStyle.Left;
-            label13.Font = new Font("Source Sans Pro", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label13.Font = new Font("Verdana", 17.25F);
             label13.ForeColor = SystemColors.ButtonFace;
-            label13.Location = new Point(42, 0);
+            label13.Location = new Point(43, 0);
             label13.Name = "label13";
-            label13.Size = new Size(95, 34);
+            label13.Size = new Size(104, 46);
             label13.TabIndex = 6;
             label13.Text = "Tasques";
             label13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Dock = DockStyle.Right;
+            label9.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label9.ForeColor = SystemColors.ButtonFace;
+            label9.Location = new Point(412, 542);
+            label9.Name = "label9";
+            label9.Padding = new Padding(5, 0, 0, 7);
+            label9.Size = new Size(379, 42);
+            label9.TabIndex = 26;
+            label9.Text = "*Fes clic als títols de les tasques per destacar-les!";
+            label9.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // tableLayoutPanel6
             // 
@@ -933,7 +860,7 @@
             tableLayoutPanel6.Controls.Add(label104, 0, 5);
             tableLayoutPanel6.Controls.Add(pictureBox13, 0, 6);
             tableLayoutPanel6.Dock = DockStyle.Fill;
-            tableLayoutPanel6.Location = new Point(889, 74);
+            tableLayoutPanel6.Location = new Point(897, 35);
             tableLayoutPanel6.Name = "tableLayoutPanel6";
             tableLayoutPanel6.RowCount = 7;
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Absolute, 40F));
@@ -944,46 +871,64 @@
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Absolute, 40F));
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel6.Size = new Size(227, 561);
+            tableLayoutPanel6.Size = new Size(207, 584);
             tableLayoutPanel6.TabIndex = 1;
             // 
             // tableLayoutPanel7
             // 
             tableLayoutPanel7.BackColor = Color.LightSteelBlue;
             tableLayoutPanel7.ColumnCount = 1;
-            tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel7.Controls.Add(label43, 0, 1);
             tableLayoutPanel7.Controls.Add(label8, 0, 0);
             tableLayoutPanel7.Dock = DockStyle.Fill;
             tableLayoutPanel7.Location = new Point(20, 45);
             tableLayoutPanel7.Margin = new Padding(20, 5, 20, 5);
             tableLayoutPanel7.Name = "tableLayoutPanel7";
             tableLayoutPanel7.RowCount = 2;
-            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Absolute, 26F));
-            tableLayoutPanel7.Size = new Size(187, 62);
+            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 35F));
+            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 65F));
+            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel7.Size = new Size(167, 65);
             tableLayoutPanel7.TabIndex = 14;
+            // 
+            // label43
+            // 
+            label43.AutoSize = true;
+            label43.Dock = DockStyle.Fill;
+            label43.Font = new Font("Carlito", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label43.Location = new Point(3, 22);
+            label43.Name = "label43";
+            label43.Padding = new Padding(0, 0, 0, 4);
+            label43.Size = new Size(161, 43);
+            label43.TabIndex = 2;
+            label43.Text = "10";
+            label43.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Dock = DockStyle.Fill;
-            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.Font = new Font("Verdana", 11.25F);
             label8.ForeColor = SystemColors.ActiveCaptionText;
             label8.Location = new Point(3, 0);
             label8.Name = "label8";
-            label8.Size = new Size(181, 36);
+            label8.Size = new Size(161, 22);
             label8.TabIndex = 0;
             label8.Text = "Total";
+            label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label97
             // 
             label97.AutoSize = true;
             label97.Dock = DockStyle.Fill;
-            label97.Font = new Font("Source Sans Pro", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label97.Font = new Font("Verdana", 17.25F);
             label97.ForeColor = SystemColors.ButtonFace;
             label97.Location = new Point(3, 0);
             label97.Name = "label97";
-            label97.Size = new Size(221, 40);
+            label97.Size = new Size(201, 40);
             label97.TabIndex = 7;
             label97.Text = "Informe";
             label97.TextAlign = ContentAlignment.MiddleCenter;
@@ -992,95 +937,140 @@
             // 
             tableLayoutPanel43.BackColor = Color.Thistle;
             tableLayoutPanel43.ColumnCount = 1;
-            tableLayoutPanel43.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel43.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel43.Controls.Add(label44, 0, 1);
             tableLayoutPanel43.Controls.Add(label101, 0, 0);
             tableLayoutPanel43.Dock = DockStyle.Fill;
-            tableLayoutPanel43.Location = new Point(20, 117);
+            tableLayoutPanel43.Location = new Point(20, 120);
             tableLayoutPanel43.Margin = new Padding(20, 5, 20, 5);
             tableLayoutPanel43.Name = "tableLayoutPanel43";
             tableLayoutPanel43.RowCount = 2;
-            tableLayoutPanel43.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel43.RowStyles.Add(new RowStyle(SizeType.Absolute, 26F));
-            tableLayoutPanel43.Size = new Size(187, 62);
+            tableLayoutPanel43.RowStyles.Add(new RowStyle(SizeType.Percent, 35F));
+            tableLayoutPanel43.RowStyles.Add(new RowStyle(SizeType.Percent, 65F));
+            tableLayoutPanel43.Size = new Size(167, 65);
             tableLayoutPanel43.TabIndex = 9;
+            // 
+            // label44
+            // 
+            label44.AutoSize = true;
+            label44.Dock = DockStyle.Fill;
+            label44.Font = new Font("Carlito", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label44.Location = new Point(3, 22);
+            label44.Name = "label44";
+            label44.Padding = new Padding(0, 0, 0, 4);
+            label44.Size = new Size(161, 43);
+            label44.TabIndex = 3;
+            label44.Text = "4";
+            label44.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label101
             // 
             label101.AutoSize = true;
             label101.Dock = DockStyle.Fill;
-            label101.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label101.Font = new Font("Verdana", 11.25F);
             label101.ForeColor = SystemColors.ActiveCaptionText;
             label101.Location = new Point(3, 0);
             label101.Name = "label101";
-            label101.Size = new Size(181, 36);
+            label101.Size = new Size(161, 22);
             label101.TabIndex = 0;
             label101.Text = "Completats";
+            label101.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel44
             // 
             tableLayoutPanel44.BackColor = Color.PowderBlue;
             tableLayoutPanel44.ColumnCount = 1;
-            tableLayoutPanel44.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel44.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel44.Controls.Add(label45, 0, 1);
             tableLayoutPanel44.Controls.Add(label102, 0, 0);
             tableLayoutPanel44.Dock = DockStyle.Fill;
-            tableLayoutPanel44.Location = new Point(20, 189);
+            tableLayoutPanel44.Location = new Point(20, 195);
             tableLayoutPanel44.Margin = new Padding(20, 5, 20, 5);
             tableLayoutPanel44.Name = "tableLayoutPanel44";
             tableLayoutPanel44.RowCount = 2;
-            tableLayoutPanel44.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel44.RowStyles.Add(new RowStyle(SizeType.Absolute, 26F));
-            tableLayoutPanel44.Size = new Size(187, 62);
+            tableLayoutPanel44.RowStyles.Add(new RowStyle(SizeType.Percent, 35F));
+            tableLayoutPanel44.RowStyles.Add(new RowStyle(SizeType.Percent, 65F));
+            tableLayoutPanel44.Size = new Size(167, 65);
             tableLayoutPanel44.TabIndex = 10;
+            // 
+            // label45
+            // 
+            label45.AutoSize = true;
+            label45.Dock = DockStyle.Fill;
+            label45.Font = new Font("Carlito", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label45.Location = new Point(3, 22);
+            label45.Name = "label45";
+            label45.Padding = new Padding(0, 0, 0, 4);
+            label45.Size = new Size(161, 43);
+            label45.TabIndex = 3;
+            label45.Text = "3";
+            label45.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label102
             // 
             label102.AutoSize = true;
             label102.Dock = DockStyle.Fill;
-            label102.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label102.Font = new Font("Verdana", 11.25F);
             label102.ForeColor = SystemColors.ActiveCaptionText;
             label102.Location = new Point(3, 0);
             label102.Name = "label102";
-            label102.Size = new Size(181, 36);
+            label102.Size = new Size(161, 22);
             label102.TabIndex = 0;
             label102.Text = "En procés";
+            label102.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel45
             // 
             tableLayoutPanel45.BackColor = Color.FromArgb(255, 192, 192);
             tableLayoutPanel45.ColumnCount = 1;
-            tableLayoutPanel45.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel45.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel45.Controls.Add(label46, 0, 1);
             tableLayoutPanel45.Controls.Add(label103, 0, 0);
             tableLayoutPanel45.Dock = DockStyle.Fill;
-            tableLayoutPanel45.Location = new Point(20, 261);
+            tableLayoutPanel45.Location = new Point(20, 270);
             tableLayoutPanel45.Margin = new Padding(20, 5, 20, 5);
             tableLayoutPanel45.Name = "tableLayoutPanel45";
             tableLayoutPanel45.RowCount = 2;
-            tableLayoutPanel45.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel45.RowStyles.Add(new RowStyle(SizeType.Absolute, 26F));
-            tableLayoutPanel45.Size = new Size(187, 62);
+            tableLayoutPanel45.RowStyles.Add(new RowStyle(SizeType.Percent, 35F));
+            tableLayoutPanel45.RowStyles.Add(new RowStyle(SizeType.Percent, 65F));
+            tableLayoutPanel45.Size = new Size(167, 65);
             tableLayoutPanel45.TabIndex = 11;
+            // 
+            // label46
+            // 
+            label46.AutoSize = true;
+            label46.Dock = DockStyle.Fill;
+            label46.Font = new Font("Carlito", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label46.Location = new Point(3, 22);
+            label46.Name = "label46";
+            label46.Padding = new Padding(0, 0, 0, 4);
+            label46.Size = new Size(161, 43);
+            label46.TabIndex = 3;
+            label46.Text = "4";
+            label46.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label103
             // 
             label103.AutoSize = true;
             label103.Dock = DockStyle.Fill;
-            label103.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label103.Font = new Font("Verdana", 11.25F);
             label103.ForeColor = SystemColors.ActiveCaptionText;
             label103.Location = new Point(3, 0);
             label103.Name = "label103";
-            label103.Size = new Size(181, 36);
+            label103.Size = new Size(161, 22);
             label103.TabIndex = 0;
             label103.Text = "En espera";
+            label103.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label104
             // 
             label104.AutoSize = true;
             label104.Dock = DockStyle.Fill;
-            label104.Font = new Font("Source Sans Pro", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label104.Font = new Font("Verdana", 17.25F);
             label104.ForeColor = SystemColors.ButtonFace;
-            label104.Location = new Point(3, 328);
+            label104.Location = new Point(3, 340);
             label104.Name = "label104";
-            label104.Size = new Size(221, 40);
+            label104.Size = new Size(201, 40);
             label104.TabIndex = 12;
             label104.Text = "Visualització";
             label104.TextAlign = ContentAlignment.MiddleCenter;
@@ -1089,9 +1079,9 @@
             // 
             pictureBox13.Dock = DockStyle.Fill;
             pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(3, 371);
+            pictureBox13.Location = new Point(3, 383);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(221, 187);
+            pictureBox13.Size = new Size(201, 198);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 13;
             pictureBox13.TabStop = false;
@@ -1108,14 +1098,14 @@
             tableLayoutPanel41.RowCount = 2;
             tableLayoutPanel41.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel41.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel41.Size = new Size(1264, 701);
+            tableLayoutPanel41.Size = new Size(1142, 656);
             tableLayoutPanel41.TabIndex = 30;
             // 
             // pictureBox6
             // 
             pictureBox6.Anchor = AnchorStyles.None;
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(82, 208);
+            pictureBox6.Location = new Point(21, 186);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(35, 35);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1126,7 +1116,7 @@
             // 
             pictureBox4.Anchor = AnchorStyles.None;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(82, 126);
+            pictureBox4.Location = new Point(21, 104);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(35, 35);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1140,7 +1130,7 @@
             label1.BackColor = SystemColors.ActiveCaptionText;
             label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(192, 192, 255);
-            label1.Location = new Point(3, 10);
+            label1.Location = new Point(-58, -12);
             label1.Name = "label1";
             label1.Padding = new Padding(1, 1, 1, 5);
             label1.Size = new Size(90, 27);
@@ -1184,7 +1174,7 @@
             label3.BackColor = SystemColors.ActiveCaptionText;
             label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(192, 192, 255);
-            label3.Location = new Point(467, 67);
+            label3.Location = new Point(413, 61);
             label3.Name = "label3";
             label3.Padding = new Padding(1, 1, 1, 5);
             label3.Size = new Size(71, 27);
@@ -1198,7 +1188,7 @@
             label4.BackColor = SystemColors.ActiveCaptionText;
             label4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.FromArgb(192, 192, 255);
-            label4.Location = new Point(24, 67);
+            label4.Location = new Point(16, 61);
             label4.Name = "label4";
             label4.Padding = new Padding(1, 1, 1, 5);
             label4.Size = new Size(90, 27);
@@ -1210,7 +1200,7 @@
             textBox1.Anchor = AnchorStyles.Left;
             textBox1.BackColor = SystemColors.ControlLight;
             textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(142, 66);
+            textBox1.Location = new Point(126, 60);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(174, 29);
             textBox1.TabIndex = 1;
@@ -1222,7 +1212,7 @@
             label5.BackColor = SystemColors.ActiveCaptionText;
             label5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.FromArgb(192, 192, 255);
-            label5.Location = new Point(25, 274);
+            label5.Location = new Point(17, 254);
             label5.Name = "label5";
             label5.Padding = new Padding(1, 1, 1, 5);
             label5.Size = new Size(89, 27);
@@ -1236,7 +1226,7 @@
             label6.BackColor = SystemColors.ActiveCaptionText;
             label6.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(192, 192, 255);
-            label6.Location = new Point(467, 274);
+            label6.Location = new Point(413, 254);
             label6.Name = "label6";
             label6.Padding = new Padding(1, 1, 1, 5);
             label6.Size = new Size(99, 27);
@@ -1248,7 +1238,7 @@
             richTextBox1.Anchor = AnchorStyles.Left;
             richTextBox1.BackColor = SystemColors.ControlLight;
             richTextBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            richTextBox1.Location = new Point(142, 210);
+            richTextBox1.Location = new Point(126, 190);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(174, 155);
             richTextBox1.TabIndex = 6;
@@ -1257,7 +1247,7 @@
             // monthCalendar1
             // 
             monthCalendar1.Anchor = AnchorStyles.Left;
-            monthCalendar1.Location = new Point(612, 206);
+            monthCalendar1.Location = new Point(542, 187);
             monthCalendar1.Name = "monthCalendar1";
             monthCalendar1.TabIndex = 9;
             // 
@@ -1278,12 +1268,12 @@
             tableLayoutPanel5.Controls.Add(monthCalendar1, 3, 1);
             tableLayoutPanel5.Controls.Add(checkedListBox1, 3, 0);
             tableLayoutPanel5.Dock = DockStyle.Fill;
-            tableLayoutPanel5.Location = new Point(66, 72);
+            tableLayoutPanel5.Location = new Point(59, 68);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             tableLayoutPanel5.RowCount = 2;
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 35F));
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 55F));
-            tableLayoutPanel5.Size = new Size(929, 414);
+            tableLayoutPanel5.Size = new Size(821, 386);
             tableLayoutPanel5.TabIndex = 1;
             // 
             // checkedListBox1
@@ -1291,7 +1281,7 @@
             checkedListBox1.Anchor = AnchorStyles.Left;
             checkedListBox1.FormattingEnabled = true;
             checkedListBox1.Items.AddRange(new object[] { "Baixa", "Mitjana", "Alta" });
-            checkedListBox1.Location = new Point(606, 51);
+            checkedListBox1.Location = new Point(536, 46);
             checkedListBox1.Name = "checkedListBox1";
             checkedListBox1.Size = new Size(146, 58);
             checkedListBox1.TabIndex = 8;
@@ -1303,7 +1293,7 @@
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1264, 701);
+            panel2.Size = new Size(1142, 656);
             panel2.TabIndex = 45;
             // 
             // tableLayoutPanel2
@@ -1320,7 +1310,7 @@
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 12.3782921F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 79.36951F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 8.252194F));
-            tableLayoutPanel2.Size = new Size(1264, 701);
+            tableLayoutPanel2.Size = new Size(1142, 656);
             tableLayoutPanel2.TabIndex = 0;
             // 
             // tableLayoutPanel3
@@ -1334,13 +1324,13 @@
             tableLayoutPanel3.Controls.Add(button1, 1, 2);
             tableLayoutPanel3.Controls.Add(label41, 1, 0);
             tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(148, 89);
+            tableLayoutPanel3.Location = new Point(148, 84);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 3;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 12.7238617F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 76.36997F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 10.906167F));
-            tableLayoutPanel3.Size = new Size(1055, 550);
+            tableLayoutPanel3.Size = new Size(940, 514);
             tableLayoutPanel3.TabIndex = 0;
             // 
             // button1
@@ -1352,7 +1342,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Source Sans Pro Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(902, 506);
+            button1.Location = new Point(787, 472);
             button1.Name = "button1";
             button1.Size = new Size(93, 27);
             button1.TabIndex = 5;
@@ -1365,7 +1355,7 @@
             label41.AutoSize = true;
             label41.Font = new Font("Source Sans Pro", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label41.ForeColor = SystemColors.ButtonFace;
-            label41.Location = new Point(66, 19);
+            label41.Location = new Point(59, 17);
             label41.Name = "label41";
             label41.Size = new Size(95, 31);
             label41.TabIndex = 6;
@@ -1377,15 +1367,15 @@
             splitContainer1.Dock = DockStyle.Fill;
             splitContainer1.Location = new Point(0, 0);
             splitContainer1.Name = "splitContainer1";
-            splitContainer1.Size = new Size(1264, 701);
-            splitContainer1.SplitterDistance = 421;
+            splitContainer1.Size = new Size(1142, 656);
+            splitContainer1.SplitterDistance = 380;
             splitContainer1.TabIndex = 27;
             // 
             // pictureBox3
             // 
             pictureBox3.Anchor = AnchorStyles.None;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(82, 85);
+            pictureBox3.Location = new Point(21, 63);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(35, 35);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1404,7 +1394,7 @@
             tableLayoutPanel42.RowCount = 2;
             tableLayoutPanel42.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel42.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel42.Size = new Size(1264, 701);
+            tableLayoutPanel42.Size = new Size(1142, 656);
             tableLayoutPanel42.TabIndex = 25;
             // 
             // tableLayoutPanel1
@@ -1434,11 +1424,162 @@
             label7.TabIndex = 0;
             label7.Text = "Total";
             // 
+            // tableLayoutPanel13
+            // 
+            tableLayoutPanel13.BackColor = Color.Black;
+            tableLayoutPanel13.ColumnCount = 1;
+            tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel13.Controls.Add(label19, 0, 0);
+            tableLayoutPanel13.Location = new Point(0, 0);
+            tableLayoutPanel13.Name = "tableLayoutPanel13";
+            tableLayoutPanel13.RowCount = 2;
+            tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel13.Size = new Size(200, 100);
+            tableLayoutPanel13.TabIndex = 0;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.BackColor = Color.DarkSlateBlue;
+            label19.Dock = DockStyle.Bottom;
+            label19.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label19.ForeColor = SystemColors.ButtonFace;
+            label19.Location = new Point(0, 0);
+            label19.Margin = new Padding(0);
+            label19.Name = "label19";
+            label19.Padding = new Padding(2);
+            label19.Size = new Size(200, 20);
+            label19.TabIndex = 4;
+            label19.Text = "Nom Tasca";
+            label19.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.BackColor = Color.Black;
+            label20.Dock = DockStyle.Fill;
+            label20.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label20.ForeColor = SystemColors.ButtonFace;
+            label20.Location = new Point(3, 26);
+            label20.Name = "label20";
+            label20.Padding = new Padding(5, 5, 5, 0);
+            label20.Size = new Size(194, 181);
+            label20.TabIndex = 5;
+            label20.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            // 
+            // tableLayoutPanel14
+            // 
+            tableLayoutPanel14.BackColor = Color.Black;
+            tableLayoutPanel14.ColumnCount = 1;
+            tableLayoutPanel14.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel14.Controls.Add(label21, 0, 0);
+            tableLayoutPanel14.Location = new Point(0, 0);
+            tableLayoutPanel14.Name = "tableLayoutPanel14";
+            tableLayoutPanel14.RowCount = 2;
+            tableLayoutPanel14.Size = new Size(200, 100);
+            tableLayoutPanel14.TabIndex = 0;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.BackColor = Color.DarkSlateBlue;
+            label21.Dock = DockStyle.Bottom;
+            label21.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label21.ForeColor = SystemColors.ButtonFace;
+            label21.Location = new Point(0, 0);
+            label21.Margin = new Padding(0);
+            label21.Name = "label21";
+            label21.Padding = new Padding(2);
+            label21.Size = new Size(200, 26);
+            label21.TabIndex = 4;
+            label21.Text = "Nom Tasca";
+            label21.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.BackColor = Color.Black;
+            label22.Dock = DockStyle.Fill;
+            label22.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label22.ForeColor = SystemColors.ButtonFace;
+            label22.Location = new Point(3, 26);
+            label22.Name = "label22";
+            label22.Padding = new Padding(5, 5, 5, 0);
+            label22.Size = new Size(194, 181);
+            label22.TabIndex = 5;
+            label22.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            // 
+            // tableLayoutPanel15
+            // 
+            tableLayoutPanel15.BackColor = Color.Black;
+            tableLayoutPanel15.ColumnCount = 1;
+            tableLayoutPanel15.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel15.Controls.Add(label23, 0, 0);
+            tableLayoutPanel15.Location = new Point(0, 0);
+            tableLayoutPanel15.Name = "tableLayoutPanel15";
+            tableLayoutPanel15.RowCount = 2;
+            tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel15.Size = new Size(200, 100);
+            tableLayoutPanel15.TabIndex = 0;
+            // 
+            // label23
+            // 
+            label23.Anchor = AnchorStyles.None;
+            label23.AutoSize = true;
+            label23.BackColor = Color.FromArgb(64, 64, 64);
+            label23.Font = new Font("Alef", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label23.ForeColor = SystemColors.ButtonFace;
+            label23.Location = new Point(56, 8);
+            label23.Margin = new Padding(0, 8, 0, 0);
+            label23.Name = "label23";
+            label23.Padding = new Padding(2);
+            label23.Size = new Size(88, 12);
+            label23.TabIndex = 4;
+            label23.Text = "Nom Tasca";
+            label23.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.BackColor = Color.Black;
+            label24.Dock = DockStyle.Fill;
+            label24.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label24.ForeColor = SystemColors.ButtonFace;
+            label24.Location = new Point(3, 32);
+            label24.Name = "label24";
+            label24.Padding = new Padding(5, 5, 5, 0);
+            label24.Size = new Size(194, 181);
+            label24.TabIndex = 5;
+            label24.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.BackColor = Color.Black;
+            label26.Dock = DockStyle.Fill;
+            label26.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label26.ForeColor = SystemColors.ButtonFace;
+            label26.Location = new Point(3, 34);
+            label26.Name = "label26";
+            label26.Padding = new Padding(5, 5, 5, 0);
+            label26.Size = new Size(237, 79);
+            label26.TabIndex = 5;
+            label26.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet mi eu enim sollicitudin sollicitudin. Nulla aliquam auctor mauris. Ut rhoncus varius tempus";
+            // 
+            // label27
+            // 
+            label27.Location = new Point(0, 0);
+            label27.Name = "label27";
+            label27.Size = new Size(100, 23);
+            label27.TabIndex = 0;
+            // 
             // HomePage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1264, 701);
+            ClientSize = new Size(1142, 656);
             Controls.Add(panel1);
             Controls.Add(tableLayoutPanel41);
             Controls.Add(pictureBox6);
@@ -1452,38 +1593,29 @@
             Name = "HomePage";
             Text = "HomePage";
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            tableLayoutPanel11.ResumeLayout(false);
-            tableLayoutPanel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             tableLayoutPanel8.ResumeLayout(false);
             tableLayoutPanel9.ResumeLayout(false);
             tableLayoutPanel9.PerformLayout();
             tableLayoutPanel30.ResumeLayout(false);
             tableLayoutPanel30.PerformLayout();
-            tableLayoutPanel31.ResumeLayout(false);
-            tableLayoutPanel31.PerformLayout();
-            tableLayoutPanel32.ResumeLayout(false);
-            tableLayoutPanel32.PerformLayout();
-            tableLayoutPanel33.ResumeLayout(false);
-            tableLayoutPanel33.PerformLayout();
-            tableLayoutPanel35.ResumeLayout(false);
-            tableLayoutPanel35.PerformLayout();
-            tableLayoutPanel36.ResumeLayout(false);
-            tableLayoutPanel36.PerformLayout();
-            tableLayoutPanel37.ResumeLayout(false);
-            tableLayoutPanel37.PerformLayout();
-            tableLayoutPanel38.ResumeLayout(false);
-            tableLayoutPanel38.PerformLayout();
-            tableLayoutPanel39.ResumeLayout(false);
-            tableLayoutPanel39.PerformLayout();
+            tableLayoutPanel20.ResumeLayout(false);
+            tableLayoutPanel20.PerformLayout();
+            tableLayoutPanel19.ResumeLayout(false);
+            tableLayoutPanel19.PerformLayout();
+            tableLayoutPanel18.ResumeLayout(false);
+            tableLayoutPanel18.PerformLayout();
+            tableLayoutPanel17.ResumeLayout(false);
+            tableLayoutPanel17.PerformLayout();
+            tableLayoutPanel11.ResumeLayout(false);
+            tableLayoutPanel11.PerformLayout();
+            tableLayoutPanel10.ResumeLayout(false);
+            tableLayoutPanel10.PerformLayout();
+            tableLayoutPanel12.ResumeLayout(false);
+            tableLayoutPanel12.PerformLayout();
             tableLayoutPanel34.ResumeLayout(false);
             tableLayoutPanel34.PerformLayout();
+            tableLayoutPanel16.ResumeLayout(false);
+            tableLayoutPanel16.PerformLayout();
             tableLayoutPanel6.ResumeLayout(false);
             tableLayoutPanel6.PerformLayout();
             tableLayoutPanel7.ResumeLayout(false);
@@ -1508,73 +1640,19 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            tableLayoutPanel13.ResumeLayout(false);
+            tableLayoutPanel13.PerformLayout();
+            tableLayoutPanel14.ResumeLayout(false);
+            tableLayoutPanel14.PerformLayout();
+            tableLayoutPanel15.ResumeLayout(false);
+            tableLayoutPanel15.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
         private Panel panel1;
-        private TableLayoutPanel tableLayoutPanel8;
-        private TableLayoutPanel tableLayoutPanel9;
-        private TableLayoutPanel tableLayoutPanel30;
-        private TableLayoutPanel tableLayoutPanel31;
-        private Label label67;
-        private Label label68;
-        private Label label69;
-        private TableLayoutPanel tableLayoutPanel32;
-        private Label label70;
-        private Label label71;
-        private Label label72;
-        private TableLayoutPanel tableLayoutPanel33;
-        private Label label73;
-        private Label label74;
-        private Label label75;
-        private TableLayoutPanel tableLayoutPanel35;
-        private Label label79;
-        private Label label80;
-        private Label label81;
-        private TableLayoutPanel tableLayoutPanel36;
-        private Label label82;
-        private Label label83;
-        private Label label84;
-        private TableLayoutPanel tableLayoutPanel37;
-        private Label label85;
-        private Label label86;
-        private Label label87;
-        private TableLayoutPanel tableLayoutPanel38;
-        private Label label88;
-        private Label label89;
-        private Label label90;
-        private Label label91;
-        private Label label92;
-        private Label label93;
-        private TableLayoutPanel tableLayoutPanel39;
-        private Label label94;
-        private Label label95;
-        private Label label96;
-        private TableLayoutPanel tableLayoutPanel34;
-        private Label label76;
-        private Label label77;
-        private Label label78;
-        private Label label13;
-        private TableLayoutPanel tableLayoutPanel6;
-        private Label label97;
-        private TableLayoutPanel tableLayoutPanel43;
-        private Label label101;
-        private TableLayoutPanel tableLayoutPanel44;
-        private Label label102;
-        private TableLayoutPanel tableLayoutPanel45;
-        private Label label103;
-        private Label label104;
-        private PictureBox pictureBox13;
         private TableLayoutPanel tableLayoutPanel41;
-        private TableLayoutPanel tableLayoutPanel10;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox8;
-        private PictureBox pictureBox9;
-        private PictureBox pictureBox10;
-        private PictureBox pictureBox11;
-        private PictureBox pictureBox12;
         private PictureBox pictureBox6;
         private PictureBox pictureBox4;
         private Label label1;
@@ -1597,10 +1675,78 @@
         private SplitContainer splitContainer1;
         private PictureBox pictureBox3;
         private TableLayoutPanel tableLayoutPanel42;
-        private TableLayoutPanel tableLayoutPanel7;
-        private Label label8;
         private TableLayoutPanel tableLayoutPanel1;
         private Label label7;
+        private TableLayoutPanel tableLayoutPanel8;
+        private TableLayoutPanel tableLayoutPanel9;
+        private Label label13;
+        private TableLayoutPanel tableLayoutPanel6;
+        private TableLayoutPanel tableLayoutPanel7;
+        private Label label8;
+        private Label label97;
+        private TableLayoutPanel tableLayoutPanel43;
+        private Label label101;
+        private TableLayoutPanel tableLayoutPanel44;
+        private Label label102;
+        private TableLayoutPanel tableLayoutPanel45;
+        private Label label103;
+        private Label label104;
+        private PictureBox pictureBox13;
+        private TableLayoutPanel tableLayoutPanel14;
+        private Label label21;
+        private Label label22;
+        private TableLayoutPanel tableLayoutPanel13;
+        private Label label19;
+        private Label label20;
+        private TableLayoutPanel tableLayoutPanel15;
+        private Label label23;
+        private Label label24;
+        private Label label26;
+        private Label label27;
+        private TableLayoutPanel tableLayoutPanel30;
         private TableLayoutPanel tableLayoutPanel11;
+        private Label tasca2;
+        private Label label14;
+        private Label label15;
+        private TableLayoutPanel tableLayoutPanel16;
+        private Label tasca9;
+        private Label label28;
+        private Label label29;
+        private TableLayoutPanel tableLayoutPanel10;
+        private Label tasca7;
+        private Label label10;
+        private Label label11;
+        private TableLayoutPanel tableLayoutPanel12;
+        private Label label16;
+        private Label tasca8;
+        private Label label18;
+        private Label label91;
+        private Label label92;
+        private Label label93;
+        private TableLayoutPanel tableLayoutPanel34;
+        private Label tasca1;
+        private Label label77;
+        private Label label78;
+        private TableLayoutPanel tableLayoutPanel18;
+        private Label tasca4;
+        private Label label34;
+        private Label label35;
+        private TableLayoutPanel tableLayoutPanel17;
+        private Label tasca3;
+        private Label label31;
+        private Label label32;
+        private TableLayoutPanel tableLayoutPanel20;
+        private Label label39;
+        private Label tasca6;
+        private Label label42;
+        private TableLayoutPanel tableLayoutPanel19;
+        private Label label36;
+        private Label tasca5;
+        private Label label38;
+        private Label label43;
+        private Label label44;
+        private Label label45;
+        private Label label46;
+        private Label label9;
     }
 }

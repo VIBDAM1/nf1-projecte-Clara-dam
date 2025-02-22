@@ -29,14 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            tableLayoutPanel1 = new TableLayoutPanel();
-            tableLayoutPanel10 = new TableLayoutPanel();
-            pictureBox8 = new PictureBox();
-            pictureBox9 = new PictureBox();
-            pictureBox10 = new PictureBox();
-            pictureBox11 = new PictureBox();
-            pictureBox12 = new PictureBox();
-            pictureBox2 = new PictureBox();
             tableLayoutPanel8 = new TableLayoutPanel();
             tableLayoutPanel9 = new TableLayoutPanel();
             tableLayoutPanel30 = new TableLayoutPanel();
@@ -92,18 +84,15 @@
             label103 = new Label();
             label104 = new Label();
             pictureBox13 = new PictureBox();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            tableLayoutPanel3 = new TableLayoutPanel();
-            label1 = new Label();
-            pictureBox1 = new PictureBox();
-            tableLayoutPanel1.SuspendLayout();
-            tableLayoutPanel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            tableLayoutPanel10 = new TableLayoutPanel();
+            pictureBox8 = new PictureBox();
+            pictureBox9 = new PictureBox();
+            pictureBox10 = new PictureBox();
+            pictureBox11 = new PictureBox();
+            pictureBox12 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            panel1 = new Panel();
             tableLayoutPanel8.SuspendLayout();
             tableLayoutPanel9.SuspendLayout();
             tableLayoutPanel30.SuspendLayout();
@@ -122,117 +111,15 @@
             tableLayoutPanel44.SuspendLayout();
             tableLayoutPanel45.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
-            tableLayoutPanel2.SuspendLayout();
-            tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            tableLayoutPanel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // tableLayoutPanel1
-            // 
-            tableLayoutPanel1.BackColor = Color.FromArgb(64, 64, 64);
-            tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 0);
-            tableLayoutPanel1.Controls.Add(tableLayoutPanel10, 0, 0);
-            tableLayoutPanel1.Location = new Point(160, 193);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 1;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(700, 445);
-            tableLayoutPanel1.TabIndex = 0;
-            // 
-            // tableLayoutPanel10
-            // 
-            tableLayoutPanel10.BackColor = Color.FromArgb(64, 64, 64);
-            tableLayoutPanel10.ColumnCount = 1;
-            tableLayoutPanel10.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel10.Controls.Add(pictureBox8, 0, 2);
-            tableLayoutPanel10.Controls.Add(pictureBox9, 0, 3);
-            tableLayoutPanel10.Controls.Add(pictureBox10, 0, 4);
-            tableLayoutPanel10.Controls.Add(pictureBox11, 0, 5);
-            tableLayoutPanel10.Controls.Add(pictureBox12, 0, 6);
-            tableLayoutPanel10.Controls.Add(pictureBox2, 0, 0);
-            tableLayoutPanel10.Dock = DockStyle.Fill;
-            tableLayoutPanel10.Location = new Point(3, 3);
-            tableLayoutPanel10.Name = "tableLayoutPanel10";
-            tableLayoutPanel10.RowCount = 8;
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 11.1111107F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12.121212F));
-            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 16.1616154F));
-            tableLayoutPanel10.Size = new Size(94, 439);
-            tableLayoutPanel10.TabIndex = 2;
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.Anchor = AnchorStyles.None;
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(27, 107);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(40, 40);
-            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox8.TabIndex = 1;
-            pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            pictureBox9.Anchor = AnchorStyles.None;
-            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(27, 160);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(40, 40);
-            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox9.TabIndex = 2;
-            pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            pictureBox10.Anchor = AnchorStyles.None;
-            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(27, 213);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(40, 40);
-            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox10.TabIndex = 3;
-            pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            pictureBox11.Anchor = AnchorStyles.None;
-            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(27, 266);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(40, 40);
-            pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox11.TabIndex = 4;
-            pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            pictureBox12.Anchor = AnchorStyles.None;
-            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
-            pictureBox12.Location = new Point(27, 319);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(40, 40);
-            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox12.TabIndex = 5;
-            pictureBox12.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Dock = DockStyle.Fill;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(3, 3);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(88, 42);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
             // 
             // tableLayoutPanel8
             // 
@@ -1053,65 +940,121 @@
             pictureBox13.TabIndex = 13;
             pictureBox13.TabStop = false;
             // 
-            // tableLayoutPanel2
+            // tableLayoutPanel10
             // 
-            tableLayoutPanel2.ColumnCount = 3;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 55F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 94.4865952F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5.51340151F));
-            tableLayoutPanel2.Controls.Add(tableLayoutPanel3, 1, 1);
-            tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(103, 3);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 3;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 10.2902594F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 81.67332F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 8.036425F));
-            tableLayoutPanel2.Size = new Size(594, 439);
-            tableLayoutPanel2.TabIndex = 3;
+            tableLayoutPanel10.BackColor = Color.FromArgb(64, 64, 64);
+            tableLayoutPanel10.ColumnCount = 1;
+            tableLayoutPanel10.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel10.Controls.Add(pictureBox8, 0, 2);
+            tableLayoutPanel10.Controls.Add(pictureBox9, 0, 3);
+            tableLayoutPanel10.Controls.Add(pictureBox10, 0, 4);
+            tableLayoutPanel10.Controls.Add(pictureBox11, 0, 5);
+            tableLayoutPanel10.Controls.Add(pictureBox12, 0, 6);
+            tableLayoutPanel10.Controls.Add(pictureBox2, 0, 0);
+            tableLayoutPanel10.Dock = DockStyle.Fill;
+            tableLayoutPanel10.Location = new Point(3, 3);
+            tableLayoutPanel10.Name = "tableLayoutPanel10";
+            tableLayoutPanel10.RowCount = 8;
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12F));
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12F));
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12F));
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12F));
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12F));
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12F));
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12F));
+            tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 16F));
+            tableLayoutPanel10.Size = new Size(94, 695);
+            tableLayoutPanel10.TabIndex = 2;
             // 
-            // tableLayoutPanel3
+            // pictureBox8
             // 
-            tableLayoutPanel3.BackColor = Color.FromArgb(64, 64, 64);
-            tableLayoutPanel3.ColumnCount = 3;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 4.823294F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 90.35341F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 4.823294F));
-            tableLayoutPanel3.Controls.Add(label1, 1, 0);
-            tableLayoutPanel3.Controls.Add(pictureBox1, 1, 1);
-            tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(58, 48);
-            tableLayoutPanel3.Name = "tableLayoutPanel3";
-            tableLayoutPanel3.RowCount = 3;
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 9F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 84F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 7F));
-            tableLayoutPanel3.Size = new Size(503, 352);
-            tableLayoutPanel3.TabIndex = 0;
+            pictureBox8.Anchor = AnchorStyles.None;
+            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new Point(27, 187);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(40, 40);
+            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox8.TabIndex = 1;
+            pictureBox8.TabStop = false;
             // 
-            // label1
+            // pictureBox9
             // 
-            label1.Anchor = AnchorStyles.Left;
-            label1.AutoSize = true;
-            label1.Font = new Font("Source Sans Pro", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.ButtonFace;
-            label1.Location = new Point(27, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(110, 31);
-            label1.TabIndex = 6;
-            label1.Text = "Calendari";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
+            pictureBox9.Anchor = AnchorStyles.None;
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(27, 270);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(40, 40);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 2;
+            pictureBox9.TabStop = false;
             // 
-            // pictureBox1
+            // pictureBox10
             // 
-            pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(27, 34);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(448, 289);
-            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox1.TabIndex = 7;
-            pictureBox1.TabStop = false;
+            pictureBox10.Anchor = AnchorStyles.None;
+            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
+            pictureBox10.Location = new Point(27, 353);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(40, 40);
+            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox10.TabIndex = 3;
+            pictureBox10.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            pictureBox11.Anchor = AnchorStyles.None;
+            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
+            pictureBox11.Location = new Point(27, 436);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(40, 40);
+            pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox11.TabIndex = 4;
+            pictureBox11.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Anchor = AnchorStyles.None;
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(27, 519);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(40, 40);
+            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox12.TabIndex = 5;
+            pictureBox12.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Dock = DockStyle.Fill;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(3, 3);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(88, 77);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.BackColor = Color.FromArgb(64, 64, 64);
+            tableLayoutPanel1.ColumnCount = 2;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel10, 0, 0);
+            tableLayoutPanel1.Controls.Add(panel1, 1, 0);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 1;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Size = new Size(1264, 701);
+            tableLayoutPanel1.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(103, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1158, 695);
+            panel1.TabIndex = 3;
             // 
             // Form1
             // 
@@ -1120,15 +1063,8 @@
             ClientSize = new Size(1264, 701);
             Controls.Add(tableLayoutPanel1);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
-            tableLayoutPanel1.ResumeLayout(false);
-            tableLayoutPanel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             tableLayoutPanel8.ResumeLayout(false);
             tableLayoutPanel9.ResumeLayout(false);
             tableLayoutPanel9.PerformLayout();
@@ -1163,23 +1099,18 @@
             tableLayoutPanel45.ResumeLayout(false);
             tableLayoutPanel45.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
-            tableLayoutPanel2.ResumeLayout(false);
-            tableLayoutPanel3.ResumeLayout(false);
-            tableLayoutPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            tableLayoutPanel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-
-        private TableLayoutPanel tableLayoutPanel1;
-        private TableLayoutPanel tableLayoutPanel10;
-        private PictureBox pictureBox8;
-        private PictureBox pictureBox9;
-        private PictureBox pictureBox10;
-        private PictureBox pictureBox11;
-        private PictureBox pictureBox12;
-        private PictureBox pictureBox2;
         private TableLayoutPanel tableLayoutPanel8;
         private TableLayoutPanel tableLayoutPanel9;
         private TableLayoutPanel tableLayoutPanel30;
@@ -1235,9 +1166,14 @@
         private Label label103;
         private Label label104;
         private PictureBox pictureBox13;
-        private TableLayoutPanel tableLayoutPanel2;
-        private TableLayoutPanel tableLayoutPanel3;
-        private Label label1;
-        private PictureBox pictureBox1;
+        private TableLayoutPanel tableLayoutPanel10;
+        private PictureBox pictureBox8;
+        private PictureBox pictureBox9;
+        private PictureBox pictureBox10;
+        private PictureBox pictureBox11;
+        private PictureBox pictureBox12;
+        private PictureBox pictureBox2;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Panel panel1;
     }
 }

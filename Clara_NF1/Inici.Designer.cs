@@ -29,61 +29,28 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inici));
-            pictureBox1 = new PictureBox();
-            button1 = new Button();
-            button2 = new Button();
+            panel1 = new Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
+            pictureBox1 = new PictureBox();
             tableLayoutPanel2 = new TableLayoutPanel();
             tableLayoutPanel3 = new TableLayoutPanel();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            button2 = new Button();
+            button1 = new Button();
+            panel1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tableLayoutPanel2.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
             SuspendLayout();
             // 
-            // pictureBox1
+            // panel1
             // 
-            pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(51, 50);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(587, 477);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.SlateBlue;
-            button1.Dock = DockStyle.Fill;
-            button1.FlatAppearance.BorderColor = Color.SlateBlue;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Source Sans Pro", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(3, 3);
-            button1.Name = "button1";
-            button1.Size = new Size(281, 38);
-            button1.TabIndex = 1;
-            button1.Text = "Inicia Sessió";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.SlateBlue;
-            button2.Dock = DockStyle.Fill;
-            button2.FlatAppearance.BorderColor = Color.SlateBlue;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Source Sans Pro", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.ForeColor = SystemColors.ButtonFace;
-            button2.Location = new Point(3, 79);
-            button2.Name = "button2";
-            button2.Size = new Size(281, 40);
-            button2.TabIndex = 2;
-            button2.Text = "Registra't";
-            button2.UseVisualStyleBackColor = false;
+            panel1.Controls.Add(tableLayoutPanel1);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(690, 793);
+            panel1.TabIndex = 0;
             // 
             // tableLayoutPanel1
             // 
@@ -102,7 +69,18 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 27F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 6F));
             tableLayoutPanel1.Size = new Size(690, 793);
-            tableLayoutPanel1.TabIndex = 3;
+            tableLayoutPanel1.TabIndex = 4;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Dock = DockStyle.Fill;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(51, 50);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(587, 477);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // tableLayoutPanel2
             // 
@@ -118,7 +96,7 @@
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 66.6666641F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel2.Size = new Size(587, 192);
+            tableLayoutPanel2.Size = new Size(587, 208);
             tableLayoutPanel2.TabIndex = 3;
             // 
             // tableLayoutPanel3
@@ -128,14 +106,46 @@
             tableLayoutPanel3.Controls.Add(button2, 0, 2);
             tableLayoutPanel3.Controls.Add(button1, 0, 0);
             tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(149, 35);
+            tableLayoutPanel3.Location = new Point(149, 37);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 3;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 36.6972466F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 26.605505F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 36.6972466F));
-            tableLayoutPanel3.Size = new Size(287, 122);
+            tableLayoutPanel3.Size = new Size(287, 132);
             tableLayoutPanel3.TabIndex = 0;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.SlateBlue;
+            button2.Dock = DockStyle.Fill;
+            button2.FlatAppearance.BorderColor = Color.SlateBlue;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Alef", 15.75F);
+            button2.ForeColor = SystemColors.ButtonFace;
+            button2.Location = new Point(3, 86);
+            button2.Name = "button2";
+            button2.Size = new Size(281, 43);
+            button2.TabIndex = 2;
+            button2.Text = "Registra't";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.SlateBlue;
+            button1.Dock = DockStyle.Fill;
+            button1.FlatAppearance.BorderColor = Color.SlateBlue;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Alef", 15.75F);
+            button1.ForeColor = SystemColors.ButtonFace;
+            button1.Location = new Point(3, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(281, 42);
+            button1.TabIndex = 1;
+            button1.Text = "Inicia Sessió";
+            button1.UseVisualStyleBackColor = false;
             // 
             // Inici
             // 
@@ -143,15 +153,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(690, 793);
-            Controls.Add(tableLayoutPanel1);
+            Controls.Add(panel1);
             Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             MaximizeBox = false;
             Name = "Inici";
-            Text = "Form1";
-            Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Welcome!";
+            panel1.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel3.ResumeLayout(false);
             ResumeLayout(false);
@@ -159,11 +170,12 @@
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private Button button1;
-        private Button button2;
+        private Panel panel1;
         private TableLayoutPanel tableLayoutPanel1;
+        private PictureBox pictureBox1;
         private TableLayoutPanel tableLayoutPanel2;
         private TableLayoutPanel tableLayoutPanel3;
+        private Button button2;
+        private Button button1;
     }
 }

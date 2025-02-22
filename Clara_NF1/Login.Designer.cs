@@ -34,8 +34,6 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             tableLayoutPanel3 = new TableLayoutPanel();
             label3 = new Label();
-            label1 = new Label();
-            label2 = new Label();
             textBox1 = new TextBox();
             button3 = new Button();
             textBox2 = new TextBox();
@@ -95,15 +93,13 @@
             // 
             tableLayoutPanel3.BackColor = Color.FromArgb(64, 64, 64);
             tableLayoutPanel3.ColumnCount = 3;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 28F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 2F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70F));
-            tableLayoutPanel3.Controls.Add(label3, 2, 3);
-            tableLayoutPanel3.Controls.Add(label1, 0, 1);
-            tableLayoutPanel3.Controls.Add(label2, 0, 2);
-            tableLayoutPanel3.Controls.Add(textBox1, 2, 1);
-            tableLayoutPanel3.Controls.Add(button3, 2, 4);
-            tableLayoutPanel3.Controls.Add(textBox2, 2, 2);
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
+            tableLayoutPanel3.Controls.Add(label3, 1, 3);
+            tableLayoutPanel3.Controls.Add(textBox1, 1, 1);
+            tableLayoutPanel3.Controls.Add(button3, 1, 4);
+            tableLayoutPanel3.Controls.Add(textBox2, 1, 2);
             tableLayoutPanel3.Dock = DockStyle.Fill;
             tableLayoutPanel3.Location = new Point(90, 13);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -119,11 +115,11 @@
             // 
             // label3
             // 
-            label3.Anchor = AnchorStyles.Left;
+            label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Underline, GraphicsUnit.Point, 0);
             label3.ForeColor = SystemColors.ButtonFace;
-            label3.Location = new Point(120, 115);
+            label3.Location = new Point(121, 115);
             label3.Margin = new Padding(0, 0, 3, 0);
             label3.Name = "label3";
             label3.Size = new Size(157, 17);
@@ -131,39 +127,14 @@
             label3.Text = "He oblidat la contrasenya";
             label3.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Dock = DockStyle.Right;
-            label1.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold);
-            label1.ForeColor = SystemColors.ButtonFace;
-            label1.Location = new Point(56, 12);
-            label1.Name = "label1";
-            label1.Size = new Size(53, 51);
-            label1.TabIndex = 10;
-            label1.Text = "Usuari";
-            label1.TextAlign = ContentAlignment.MiddleRight;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Dock = DockStyle.Right;
-            label2.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold);
-            label2.ForeColor = SystemColors.ButtonFace;
-            label2.Location = new Point(15, 63);
-            label2.Name = "label2";
-            label2.Size = new Size(94, 51);
-            label2.TabIndex = 11;
-            label2.Text = "Contrasenya";
-            label2.TextAlign = ContentAlignment.MiddleRight;
-            // 
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.Left;
-            textBox1.Font = new Font("Segoe UI", 11.25F);
-            textBox1.Location = new Point(123, 24);
+            textBox1.Font = new Font("Carlito", 12F);
+            textBox1.Location = new Point(63, 24);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(260, 27);
+            textBox1.PlaceholderText = "Nom d'usuari o correu electrònic";
+            textBox1.Size = new Size(276, 27);
             textBox1.TabIndex = 12;
             // 
             // button3
@@ -173,22 +144,24 @@
             button3.FlatAppearance.BorderColor = Color.SlateBlue;
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Source Sans Pro", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button3.Font = new Font("Carlito", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.ForeColor = SystemColors.ButtonFace;
-            button3.Location = new Point(123, 145);
+            button3.Location = new Point(63, 145);
             button3.Name = "button3";
-            button3.Size = new Size(260, 31);
+            button3.Size = new Size(276, 31);
             button3.TabIndex = 4;
             button3.Text = "Inicia Sessió";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // textBox2
             // 
             textBox2.Anchor = AnchorStyles.Left;
-            textBox2.Font = new Font("Segoe UI", 11.25F);
-            textBox2.Location = new Point(123, 75);
+            textBox2.Font = new Font("Carlito", 12F);
+            textBox2.Location = new Point(63, 75);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(260, 27);
+            textBox2.PlaceholderText = "Contrasenya";
+            textBox2.Size = new Size(276, 27);
             textBox2.TabIndex = 13;
             // 
             // Login
@@ -216,8 +189,6 @@
         private TableLayoutPanel tableLayoutPanel3;
         private Button button3;
         private Label label3;
-        private Label label1;
-        private Label label2;
         private PictureBox pictureBox1;
         private TextBox textBox1;
         private TextBox textBox2;
