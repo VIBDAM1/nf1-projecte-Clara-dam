@@ -36,7 +36,7 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(694, 797);
+            panel1.Size = new Size(630, 713);
             panel1.TabIndex = 0;
             // 
             // main_form
@@ -44,12 +44,12 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(694, 797);
+            ClientSize = new Size(630, 713);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "main_form";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "main_form";
+            Text = "Planit";
             Load += main_form_Load;
             ResumeLayout(false);
         }

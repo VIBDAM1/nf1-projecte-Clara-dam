@@ -292,7 +292,7 @@
             // 
             label3.AutoSize = true;
             label3.Dock = DockStyle.Fill;
-            label3.Font = new Font("Alef", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Alef", 18.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = SystemColors.ButtonFace;
             label3.Location = new Point(67, 0);
             label3.Name = "label3";
@@ -386,7 +386,7 @@
             // 
             label5.AutoSize = true;
             label5.Dock = DockStyle.Fill;
-            label5.Font = new Font("Verdana", 14.25F, FontStyle.Underline);
+            label5.Font = new Font("Verdana", 15.75F, FontStyle.Underline);
             label5.ForeColor = SystemColors.ButtonFace;
             label5.Location = new Point(3, 0);
             label5.Name = "label5";
@@ -399,7 +399,7 @@
             // 
             label6.AutoSize = true;
             label6.Dock = DockStyle.Fill;
-            label6.Font = new Font("Alef", 12.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Font = new Font("Alef", 12.75F);
             label6.ForeColor = SystemColors.ButtonFace;
             label6.Location = new Point(20, 62);
             label6.Margin = new Padding(20, 0, 20, 20);
@@ -430,7 +430,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Black;
             label4.Dock = DockStyle.Fill;
-            label4.Font = new Font("Verdana", 14.25F, FontStyle.Underline);
+            label4.Font = new Font("Verdana", 15.75F, FontStyle.Underline);
             label4.ForeColor = SystemColors.ButtonFace;
             label4.Location = new Point(3, 0);
             label4.Name = "label4";
@@ -527,7 +527,7 @@
             label8.AutoSize = true;
             label8.BackColor = Color.Black;
             label8.Dock = DockStyle.Fill;
-            label8.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Font = new Font("Alef", 12.75F);
             label8.ForeColor = SystemColors.ButtonFace;
             label8.Location = new Point(80, 0);
             label8.Name = "label8";
@@ -541,7 +541,7 @@
             // 
             label13.AutoSize = true;
             label13.Dock = DockStyle.Fill;
-            label13.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label13.Font = new Font("Alef", 12.75F);
             label13.ForeColor = SystemColors.ButtonFace;
             label13.Location = new Point(80, 69);
             label13.Name = "label13";
@@ -555,7 +555,7 @@
             // 
             label14.AutoSize = true;
             label14.Dock = DockStyle.Fill;
-            label14.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label14.Font = new Font("Alef", 12.75F);
             label14.ForeColor = SystemColors.ButtonFace;
             label14.Location = new Point(80, 138);
             label14.Name = "label14";
@@ -569,7 +569,7 @@
             // 
             label15.AutoSize = true;
             label15.Dock = DockStyle.Fill;
-            label15.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label15.Font = new Font("Alef", 12.75F);
             label15.ForeColor = SystemColors.ButtonFace;
             label15.Location = new Point(80, 207);
             label15.Name = "label15";
@@ -583,7 +583,7 @@
             // 
             label16.AutoSize = true;
             label16.Dock = DockStyle.Fill;
-            label16.Font = new Font("Alef", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label16.Font = new Font("Alef", 12.75F);
             label16.ForeColor = SystemColors.ButtonFace;
             label16.Location = new Point(80, 276);
             label16.Name = "label16";

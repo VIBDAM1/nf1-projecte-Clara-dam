@@ -963,7 +963,7 @@
             tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12F));
             tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 12F));
             tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 16F));
-            tableLayoutPanel10.Size = new Size(94, 695);
+            tableLayoutPanel10.Size = new Size(95, 695);
             tableLayoutPanel10.TabIndex = 2;
             // 
             // pictureBox8
@@ -1027,7 +1027,7 @@
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(3, 3);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(88, 77);
+            pictureBox2.Size = new Size(89, 77);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
@@ -1036,8 +1036,8 @@
             // 
             tableLayoutPanel1.BackColor = Color.FromArgb(64, 64, 64);
             tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 92F));
             tableLayoutPanel1.Controls.Add(tableLayoutPanel10, 0, 0);
             tableLayoutPanel1.Controls.Add(panel1, 1, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
@@ -1051,9 +1051,9 @@
             // panel1
             // 
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(103, 3);
+            panel1.Location = new Point(104, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1158, 695);
+            panel1.Size = new Size(1157, 695);
             panel1.TabIndex = 3;
             // 
             // Form1
@@ -1064,7 +1064,7 @@
             Controls.Add(tableLayoutPanel1);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Planit";
             tableLayoutPanel8.ResumeLayout(false);
             tableLayoutPanel9.ResumeLayout(false);
             tableLayoutPanel9.PerformLayout();

@@ -195,7 +195,6 @@
             anterior.TabIndex = 17;
             anterior.Text = "Mes anterior";
             anterior.UseVisualStyleBackColor = false;
-            anterior.Click += anterior_Click;
             // 
             // seguent
             // 

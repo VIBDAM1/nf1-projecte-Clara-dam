@@ -49,7 +49,7 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(690, 793);
+            panel1.Size = new Size(610, 670);
             panel1.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -68,16 +68,16 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 61F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 27F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 6F));
-            tableLayoutPanel1.Size = new Size(690, 793);
+            tableLayoutPanel1.Size = new Size(610, 670);
             tableLayoutPanel1.TabIndex = 4;
             // 
             // pictureBox1
             // 
             pictureBox1.Dock = DockStyle.Fill;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(51, 50);
+            pictureBox1.Location = new Point(45, 43);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(587, 477);
+            pictureBox1.Size = new Size(518, 402);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -90,13 +90,13 @@
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel2.Controls.Add(tableLayoutPanel3, 1, 1);
             tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(51, 533);
+            tableLayoutPanel2.Location = new Point(45, 451);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 3;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 66.6666641F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel2.Size = new Size(587, 208);
+            tableLayoutPanel2.Size = new Size(518, 174);
             tableLayoutPanel2.TabIndex = 3;
             // 
             // tableLayoutPanel3
@@ -106,13 +106,13 @@
             tableLayoutPanel3.Controls.Add(button2, 0, 2);
             tableLayoutPanel3.Controls.Add(button1, 0, 0);
             tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(149, 37);
+            tableLayoutPanel3.Location = new Point(132, 32);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 3;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 36.6972466F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 26.605505F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 36.6972466F));
-            tableLayoutPanel3.Size = new Size(287, 132);
+            tableLayoutPanel3.Size = new Size(253, 110);
             tableLayoutPanel3.TabIndex = 0;
             // 
             // button2
@@ -124,9 +124,9 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Alef", 15.75F);
             button2.ForeColor = SystemColors.ButtonFace;
-            button2.Location = new Point(3, 86);
+            button2.Location = new Point(3, 72);
             button2.Name = "button2";
-            button2.Size = new Size(281, 43);
+            button2.Size = new Size(247, 35);
             button2.TabIndex = 2;
             button2.Text = "Registra't";
             button2.UseVisualStyleBackColor = false;
@@ -142,7 +142,7 @@
             button1.ForeColor = SystemColors.ButtonFace;
             button1.Location = new Point(3, 3);
             button1.Name = "button1";
-            button1.Size = new Size(281, 42);
+            button1.Size = new Size(247, 34);
             button1.TabIndex = 1;
             button1.Text = "Inicia Sessió";
             button1.UseVisualStyleBackColor = false;
@@ -152,7 +152,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(690, 793);
+            ClientSize = new Size(610, 670);
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             FormBorderStyle = FormBorderStyle.Fixed3D;

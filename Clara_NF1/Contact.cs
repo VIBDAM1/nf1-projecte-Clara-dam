@@ -34,6 +34,10 @@ namespace Clara_NF1
             {
                 // Mostrar mensaje de éxito si todos los campos están llenos
                 MessageBox.Show("El teu missatge s'ha enviat amb èxit!", "Èxit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                textBox1.Clear(); // Limpiar el TextBox
+                richTextBox1.Clear(); // Limpiar el RichTextBox
+                comboBox1.SelectedIndex = -1; // Restablecer el ComboBox (sin selección)
             }
         }
     }

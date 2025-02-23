@@ -31,6 +31,11 @@ namespace Clara_NF1
             else
             {
                 MessageBox.Show("Felicitats! Tasca creada amb èxit.", "Èxit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                textBox1.Clear(); // Limpiar el TextBox
+        dateTimePicker1.Value = DateTime.Now; // Restablecer el DateTimePicker a la fecha actual
+        richTextBox1.Clear(); // Limpiar el RichTextBox
+        checkedListBox1.ClearSelected(); // Desmarcar todos los ítems del CheckedListBox
             }
         }
     }

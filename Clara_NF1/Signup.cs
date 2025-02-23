@@ -39,5 +39,10 @@ namespace Clara_NF1
                 _mainForm.Hide();
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            _mainForm.LoadFormInPanel(new Inici(_mainForm));
+        }
     }
 }

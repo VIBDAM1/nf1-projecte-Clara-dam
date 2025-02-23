@@ -16,5 +16,11 @@ namespace Clara_NF1
         {
             InitializeComponent();
         }
+
+        private void buttonExportar_Click(object sender, EventArgs e)
+        {
+            // Simular la exportación del informe
+            MessageBox.Show("Informe exportat correctament!", "Èxit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
