@@ -12,6 +12,7 @@ namespace Clara_NF1
 {
     public partial class Help : Form
     {
+
         private Form1 _mainForm; // Referencia al formulario principal (Form1)
 
         public Help(Form1 mainForm)

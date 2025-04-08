@@ -16,7 +16,7 @@ namespace Clara_NF1
         {
             InitializeComponent();
 
-            // Asignar evento Click al botón (opcional si se hace en el diseñador)
+            // Asignar evento Click al botón
             button2.Click += button2_Click;
         }
 

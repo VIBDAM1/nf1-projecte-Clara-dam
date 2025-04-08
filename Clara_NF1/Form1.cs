@@ -1,41 +1,73 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
+using System.Threading;
 using System.Windows.Forms;
+using System.Resources;
 
 namespace Clara_NF1
 {
     public partial class Form1 : Form
     {
+        private Form currentForm;
+        private ResourceManager rm = new ResourceManager("Clara_NF1.Properties.Resources", typeof(Form1).Assembly);
+
         public Form1()
         {
             InitializeComponent();
+            SetupLanguageSelector();
+            LoadFormInPanel(new HomePage());
+        }
 
-            // Asignar eventos Click a los PictureBox (iconos del menú)
+        private void SetupLanguageSelector()
+        {
+            // Configurar ComboBox
+            comboBoxIdiomes.Items.AddRange(new[] { "Català", "English", "Macedonian", "Thai", "Portuguese" });
+            comboBoxIdiomes.SelectedIndex = 0;
+            comboBoxIdiomes.SelectedIndexChanged += (sender, e) => ChangeLanguage(comboBoxIdiomes.SelectedItem.ToString());
+
+            // Asignar eventos a los PictureBox
             pictureBox8.Click += (sender, e) => LoadFormInPanel(new HomePage());
             pictureBox9.Click += (sender, e) => LoadFormInPanel(new TaskForm());
             pictureBox10.Click += (sender, e) => LoadFormInPanel(new Calendar());
             pictureBox11.Click += (sender, e) => LoadFormInPanel(new Report());
             pictureBox12.Click += (sender, e) => LoadFormInPanel(new Help(this));
-
-            // Cargar HomePage por defecto al iniciar
-            LoadFormInPanel(new HomePage());
         }
 
-        // Método para cargar un formulario dentro del panel1
+        private void ChangeLanguage(string language)
+        {
+            string cultureCode = GetCultureCode(language);
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(cultureCode);
+
+            // Recargar el formulario actual
+            if (currentForm != null)
+            {
+                Type formType = currentForm.GetType();
+                LoadFormInPanel((Form)Activator.CreateInstance(formType));
+            }
+        }
+
+        private string GetCultureCode(string language)
+        {
+            return language switch
+            {
+                "Català" => "ca-ES",
+                "English" => "en",
+                "Macedonian" => "mk",
+                "Thai" => "th",
+                "Portuguese" => "pt",
+                _ => "ca-ES" // Default
+            };
+        }
+
         public void LoadFormInPanel(Form form)
         {
-            panel1.Controls.Clear(); // Limpiar el panel antes de cargar un nuevo formulario
-            form.TopLevel = false; // Indicar que el formulario no es de nivel superior
-            form.FormBorderStyle = FormBorderStyle.None; // Eliminar bordes del formulario
-            form.Dock = DockStyle.Fill; // Ajustar el formulario al tamaño del panel
-            panel1.Controls.Add(form); // Agregar el formulario al panel
-            form.Show(); // Mostrar el formulario
+            panel1.Controls.Clear();
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.Dock = DockStyle.Fill;
+            panel1.Controls.Add(form);
+            form.Show();
+            currentForm = form;
         }
     }
 }
