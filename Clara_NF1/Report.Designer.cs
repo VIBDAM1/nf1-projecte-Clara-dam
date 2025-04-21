@@ -61,6 +61,7 @@
             tableLayoutPanel13 = new TableLayoutPanel();
             label4 = new Label();
             label10 = new Label();
+            buttonImprimir = new Button();
             tableLayoutPanel40.SuspendLayout();
             tableLayoutPanel43.SuspendLayout();
             tableLayoutPanel44.SuspendLayout();
@@ -162,7 +163,8 @@
             // tableLayoutPanel3
             // 
             resources.ApplyResources(tableLayoutPanel3, "tableLayoutPanel3");
-            tableLayoutPanel3.Controls.Add(buttonExportar, 1, 1);
+            tableLayoutPanel3.Controls.Add(buttonExportar, 2, 1);
+            tableLayoutPanel3.Controls.Add(buttonImprimir, 1, 1);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             // 
             // buttonExportar
@@ -295,6 +297,17 @@
             label10.ForeColor = SystemColors.ActiveCaptionText;
             label10.Name = "label10";
             // 
+            // buttonImprimir
+            // 
+            buttonImprimir.BackColor = Color.SlateBlue;
+            buttonImprimir.FlatAppearance.BorderColor = Color.SlateBlue;
+            buttonImprimir.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(buttonImprimir, "buttonImprimir");
+            buttonImprimir.ForeColor = SystemColors.ButtonFace;
+            buttonImprimir.Name = "buttonImprimir";
+            buttonImprimir.UseVisualStyleBackColor = false;
+            buttonImprimir.Click += buttonImprimir_Click;
+            // 
             // Report
             // 
             resources.ApplyResources(this, "$this");
@@ -362,5 +375,6 @@
         private PictureBox pictureBox5;
         private TableLayoutPanel tableLayoutPanel3;
         private Button buttonExportar;
+        private Button buttonImprimir;
     }
 }

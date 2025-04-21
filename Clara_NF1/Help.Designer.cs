@@ -44,12 +44,13 @@
             tableLayoutPanel7 = new TableLayoutPanel();
             label3 = new Label();
             tableLayoutPanel9 = new TableLayoutPanel();
-            button1 = new Button();
-            label12 = new Label();
+            tabControl1 = new TabControl();
+            tabPage1 = new TabPage();
             tableLayoutPanel1 = new TableLayoutPanel();
             tableLayoutPanel8 = new TableLayoutPanel();
             label5 = new Label();
             label6 = new Label();
+            label17 = new Label();
             tableLayoutPanel10 = new TableLayoutPanel();
             label4 = new Label();
             tableLayoutPanel11 = new TableLayoutPanel();
@@ -63,13 +64,27 @@
             label14 = new Label();
             label15 = new Label();
             label16 = new Label();
-            label17 = new Label();
+            tabPage2 = new TabPage();
+            tableLayoutPanel12 = new TableLayoutPanel();
+            label23 = new Label();
+            label22 = new Label();
+            label21 = new Label();
+            label20 = new Label();
+            label24 = new Label();
+            label19 = new Label();
+            label26 = new Label();
+            label27 = new Label();
+            label28 = new Label();
+            label29 = new Label();
+            button1 = new Button();
             tableLayoutPanel3.SuspendLayout();
             tableLayoutPanel4.SuspendLayout();
             tableLayoutPanel5.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
             tableLayoutPanel7.SuspendLayout();
             tableLayoutPanel9.SuspendLayout();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel8.SuspendLayout();
             tableLayoutPanel10.SuspendLayout();
@@ -79,6 +94,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            tabPage2.SuspendLayout();
+            tableLayoutPanel12.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel2
@@ -171,7 +188,7 @@
             resources.ApplyResources(tableLayoutPanel7, "tableLayoutPanel7");
             tableLayoutPanel7.Controls.Add(label3, 1, 0);
             tableLayoutPanel7.Controls.Add(tableLayoutPanel9, 1, 2);
-            tableLayoutPanel7.Controls.Add(tableLayoutPanel1, 1, 1);
+            tableLayoutPanel7.Controls.Add(tabControl1, 1, 1);
             tableLayoutPanel7.Name = "tableLayoutPanel7";
             // 
             // label3
@@ -183,26 +200,23 @@
             // tableLayoutPanel9
             // 
             resources.ApplyResources(tableLayoutPanel9, "tableLayoutPanel9");
-            tableLayoutPanel9.Controls.Add(button1, 1, 2);
-            tableLayoutPanel9.Controls.Add(label12, 1, 0);
+            tableLayoutPanel9.Controls.Add(button1, 1, 0);
             tableLayoutPanel9.Name = "tableLayoutPanel9";
             // 
-            // button1
+            // tabControl1
             // 
-            button1.BackColor = Color.SlateBlue;
-            resources.ApplyResources(button1, "button1");
-            button1.FlatAppearance.BorderColor = Color.SlateBlue;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.ForeColor = SystemColors.ButtonFace;
-            button1.Name = "button1";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            resources.ApplyResources(tabControl1, "tabControl1");
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
             // 
-            // label12
+            // tabPage1
             // 
-            resources.ApplyResources(label12, "label12");
-            label12.ForeColor = SystemColors.ButtonFace;
-            label12.Name = "label12";
+            tabPage1.Controls.Add(tableLayoutPanel1);
+            resources.ApplyResources(tabPage1, "tabPage1");
+            tabPage1.Name = "tabPage1";
+            tabPage1.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
             // 
@@ -231,6 +245,12 @@
             resources.ApplyResources(label6, "label6");
             label6.ForeColor = SystemColors.ButtonFace;
             label6.Name = "label6";
+            // 
+            // label17
+            // 
+            resources.ApplyResources(label17, "label17");
+            label17.ForeColor = SystemColors.ButtonFace;
+            label17.Name = "label17";
             // 
             // tableLayoutPanel10
             // 
@@ -323,11 +343,99 @@
             label16.ForeColor = SystemColors.ButtonFace;
             label16.Name = "label16";
             // 
-            // label17
+            // tabPage2
             // 
-            resources.ApplyResources(label17, "label17");
-            label17.ForeColor = SystemColors.ButtonFace;
-            label17.Name = "label17";
+            tabPage2.Controls.Add(tableLayoutPanel12);
+            resources.ApplyResources(tabPage2, "tabPage2");
+            tabPage2.Name = "tabPage2";
+            tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel12
+            // 
+            resources.ApplyResources(tableLayoutPanel12, "tableLayoutPanel12");
+            tableLayoutPanel12.BackColor = Color.Black;
+            tableLayoutPanel12.Controls.Add(label29, 0, 8);
+            tableLayoutPanel12.Controls.Add(label28, 0, 6);
+            tableLayoutPanel12.Controls.Add(label27, 0, 4);
+            tableLayoutPanel12.Controls.Add(label26, 0, 2);
+            tableLayoutPanel12.Controls.Add(label19, 0, 0);
+            tableLayoutPanel12.Controls.Add(label24, 0, 7);
+            tableLayoutPanel12.Controls.Add(label23, 0, 5);
+            tableLayoutPanel12.Controls.Add(label22, 0, 3);
+            tableLayoutPanel12.Controls.Add(label21, 0, 1);
+            tableLayoutPanel12.Controls.Add(label20, 0, 9);
+            tableLayoutPanel12.Name = "tableLayoutPanel12";
+            // 
+            // label23
+            // 
+            resources.ApplyResources(label23, "label23");
+            label23.ForeColor = SystemColors.ButtonFace;
+            label23.Name = "label23";
+            // 
+            // label22
+            // 
+            resources.ApplyResources(label22, "label22");
+            label22.ForeColor = SystemColors.ButtonFace;
+            label22.Name = "label22";
+            // 
+            // label21
+            // 
+            resources.ApplyResources(label21, "label21");
+            label21.ForeColor = SystemColors.ButtonFace;
+            label21.Name = "label21";
+            // 
+            // label20
+            // 
+            resources.ApplyResources(label20, "label20");
+            label20.ForeColor = SystemColors.ButtonFace;
+            label20.Name = "label20";
+            // 
+            // label24
+            // 
+            resources.ApplyResources(label24, "label24");
+            label24.ForeColor = SystemColors.ButtonFace;
+            label24.Name = "label24";
+            // 
+            // label19
+            // 
+            resources.ApplyResources(label19, "label19");
+            label19.ForeColor = SystemColors.ButtonFace;
+            label19.Name = "label19";
+            // 
+            // label26
+            // 
+            resources.ApplyResources(label26, "label26");
+            label26.ForeColor = SystemColors.ButtonFace;
+            label26.Name = "label26";
+            // 
+            // label27
+            // 
+            resources.ApplyResources(label27, "label27");
+            label27.ForeColor = SystemColors.ButtonFace;
+            label27.Name = "label27";
+            // 
+            // label28
+            // 
+            resources.ApplyResources(label28, "label28");
+            label28.ForeColor = SystemColors.ButtonFace;
+            label28.Name = "label28";
+            // 
+            // label29
+            // 
+            resources.ApplyResources(label29, "label29");
+            label29.ForeColor = SystemColors.ButtonFace;
+            label29.Name = "label29";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.SlateBlue;
+            resources.ApplyResources(button1, "button1");
+            button1.FlatAppearance.BorderColor = Color.SlateBlue;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.ForeColor = SystemColors.ButtonFace;
+            button1.Name = "button1";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Help
             // 
@@ -345,7 +453,8 @@
             tableLayoutPanel7.ResumeLayout(false);
             tableLayoutPanel7.PerformLayout();
             tableLayoutPanel9.ResumeLayout(false);
-            tableLayoutPanel9.PerformLayout();
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel8.ResumeLayout(false);
             tableLayoutPanel8.PerformLayout();
@@ -358,6 +467,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            tabPage2.ResumeLayout(false);
+            tableLayoutPanel12.ResumeLayout(false);
+            tableLayoutPanel12.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -377,26 +489,39 @@
         private TableLayoutPanel tableLayoutPanel6;
         private TableLayoutPanel tableLayoutPanel7;
         private TableLayoutPanel tableLayoutPanel9;
-        private Button button1;
-        private Label label12;
         private Label label3;
+        private TabControl tabControl1;
+        private TabPage tabPage1;
         private TableLayoutPanel tableLayoutPanel1;
         private TableLayoutPanel tableLayoutPanel8;
         private Label label5;
         private Label label6;
+        private Label label17;
         private TableLayoutPanel tableLayoutPanel10;
         private Label label4;
         private TableLayoutPanel tableLayoutPanel11;
+        private PictureBox pictureBox12;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private PictureBox pictureBox10;
         private PictureBox pictureBox11;
-        private PictureBox pictureBox12;
         private Label label8;
         private Label label13;
         private Label label14;
         private Label label15;
         private Label label16;
-        private Label label17;
+        private TabPage tabPage2;
+        private TableLayoutPanel tableLayoutPanel12;
+        private Label label20;
+        private Label label23;
+        private Label label22;
+        private Label label21;
+        private Label label19;
+        private Label label24;
+        private Button button1;
+        private Label label29;
+        private Label label28;
+        private Label label27;
+        private Label label26;
     }
 }
